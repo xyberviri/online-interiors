@@ -314,7 +314,7 @@ local teleports = {
 	
 	-- Rockford Hills 
 	[214] = {text = "Leave Rockford Hills Agency", dest = {215}, x = -1035.3, y = -431.42, z = 39.62, h = 119.03},
-	[215] = {text = "Enter Rockford Hills Agency", dest = {214} x = -1033.35, y = -434.92, z = 63.86, h = 296.08},
+	[215] = {text = "Enter Rockford Hills Agency", dest = {214}, x = -1033.35, y = -434.92, z = 63.86, h = 296.08},
 	
 	
 	-- Vespucci Canals
