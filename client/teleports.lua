@@ -101,9 +101,9 @@ local teleports = {
     [77] = {text = "302 San Andreas Ave Lobby", dest = {75, 76}, coord = vector3(-468.84, -678.36, 32.72), h = 367.38},
 
     -- 0552 Roy Lowenstein Boulevard Garage (Medium)
-    [78] = {text = "Mtext-End Garage", dest = {79}, coord = vector3(198.39, -1002.87, -99.00), h = 357.40},
-    [79] = {text = "Exit Mtext-End Garage", dest = {}, coord = vector3(501.13, -1496.61, 27.70), h = 178.86},
-    [80] = {text = "Mtext-End Garage", dest = {78}, coord = vector3(507.87, -1496.00, 29.29), h = 0.23},
+    [78] = {text = "Mid-End Garage", dest = {79}, coord = vector3(198.39, -1002.87, -99.00), h = 357.40},
+    [79] = {text = "Exit Mid-End Garage", dest = {}, coord = vector3(501.13, -1496.61, 27.70), h = 178.86},
+    [80] = {text = "Mid-End Garage", dest = {78}, coord = vector3(507.87, -1496.00, 29.29), h = 0.23},
 
     -- 1200 Route 68 Garage (Low-End)
     [81] = {text = "Low-End Garage", dest = {82}, coord = vector3(172.74, -1005.87, -99.02), h = 0.50},
@@ -501,7 +501,8 @@ Citizen.CreateThread(function()
                 if (distance < 30.0) then
                     wait = 0
 
-                    DrawMarker(1, var.coord.x, var.coord.y, var.coord.z - 1.02, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.7, 0.7, 0.9, 77, 181, 255, 0.8, false, false, 2, false, nil, nil, false) -- LAST 4 SETS OF NUMBERS CONTROL THE COLOUR OF THE MARKER
+                    DrawMarker(1, var.coord.x, var.coord.y, var.coord.z - 1.02, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.7, 0.7, 0.9, 77, 181, 255, 0.8, false, false, 2,
+                        false, nil, nil, false) -- LAST 4 SETS OF NUMBERS CONTROL THE COLOUR OF THE MARKER
                     -- DrawMarker(1, var.coord.x, var.coord.y, var.coord.z - 1.02, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2.5, 2.5, 0.9, 255, 255, 255, 255, false, false, 2, false, nil, nil, false)
 
                     if (distance < 2.0) then
