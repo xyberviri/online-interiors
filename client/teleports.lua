@@ -345,7 +345,7 @@ local function Teleport(teleport)
 	Citizen.CreateThread(function()
 		for i,var in pairs(teleports) do
 			if (i == teleport) then
-				local player = PlayerPedtext()
+				local player = PlayerPedId()
 				local vehicle = GetVehiclePedIsIn(player, false)
 				local entity = player
 
@@ -520,7 +520,7 @@ end
 
 Citizen.CreateThread(function()
 	while (true) do
-		local player = PlayerPedtext()
+		local player = PlayerPedId()
 		local vehicle = GetVehiclePedIsIn(player, false)
 
 		for i,var in pairs(teleports) do
