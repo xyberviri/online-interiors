@@ -5,8 +5,7 @@ end
 function GetResolution()
     local resolution = {
         width = 1080.0 * GetAspectRatio(false),
-        height = 1080.0
-    }
+        height = 1080.0}
 
     return resolution
 end
@@ -47,14 +46,14 @@ function AddTextComponent(text)
 end
 
 function DrawText(text, x, y, scale, font, color, outline, shadow, align, wrap)
-    local resolution =  GetResolution()
+    local resolution = GetResolution()
     local posX = (x or 0) / resolution.width
     local posY = (y or 0) / resolution.height
 
     SetTextFont(font or 0)
     SetTextScale(1.0, scale or 1.0)
     SetTextColour(color[1] or 255, color[2] or 255, color[3] or 255, color[4] or 255)
-    
+
     if (outline) then
         SetTextOutline()
     end
@@ -81,7 +80,7 @@ function DrawText(text, x, y, scale, font, color, outline, shadow, align, wrap)
 end
 
 function DrawRectangle(x, y, width, height, color)
-    local resolution =  GetResolution()
+    local resolution = GetResolution()
     local sizeW = (width or 0) / resolution.width
     local sizeH = (height or 0) / resolution.height
     local posX = ((x or 0) / resolution.width) + sizeW * 0.5
