@@ -36,4 +36,5 @@ client_scripts {
     "client/maps/import_export/garages/maze_bank_west/*.lua",
     "client/maps/import_export/vehicle_warehouse/*.lua",
     "client/maps/smugglers/hanger/*.lua",
+	"client/maps/mpsecurity/contract/*.lua",
 }
