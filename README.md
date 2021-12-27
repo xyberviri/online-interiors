@@ -54,4 +54,18 @@ ensure online_interiors
 
 ### Note from TayMcKenzieNZ
 
-- I admire Cloudy and Bob's effort and by no means do I take any credit, I have simply added a fix for Franklin's mansion as well as continued their legacy in updating it to the Contracts DLC aka mpsecurity
+- I admire Cloudy and Bob's efforts and by no means do I take any credit. I have simply continued their legacy in updating this resource for use with interiors featured in the Contracts DLC aka mpsecurity / 2545, as well as added fixes and additional props. These fixes and additions include:
+
+- Added  additional chairs inside Franklin and MP offices
+
+- Removed obstructing prop from a TV prop on 2nd floor of Agencies, allowing players visible access when rendering videos to the screen via [pmms by Kibook](https://github.com/kibook/pmms) or other scripts.
+
+- Changed sunlounger prop on music studio rooftop to work alongside [fivem scenarios script](https://github.com/kibook/fivem-scenarios)
+
+- Replaced small TV in studio smoke room (with logos covering screen) with a better tv prop, allowing players visible access when rendering videos to the screen via hypnonema or other scripts
+
+----------------------
+
+## Thanks
+
+Huge thanks to @AvaN0x and the community over at [the FiveM forums](https://forum.cfx.re/t/the-contract-infos-build-2545/4792123) for assisting me with this. your assistance in this matter is greatly appreciated.
