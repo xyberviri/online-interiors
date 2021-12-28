@@ -204,63 +204,63 @@ local teleports = {
     [154] = {text = "Nightclub Basement", dest = {153}, coord = vector3(-1507.66, -3024.46, -79.24), h = 177.89},
     [155] = {text = "Del Perro Heights Garage", dest = {54, 55, 56, 57}, coord = vector3(-1456.37, -514.44, 31.58), h = 211.62},
 
-    -- Arcade
-    [158] = {text = 158, coord = vector3(2737.96, -374.11, -48.0), h = 174.4, name = "Arcade", dest = {159}},
-    [159] = {text = 159, coord = vector3(4.10, 220.42, 107.5), h = 250.43, name = "Exit Arcade", dest = {158}},
+ -- Arcade
+    [158] = {text = "Exit Arcade", coord = vector3(2737.96, -374.11, -48.0), h = 174.4, dest = {159}},
+    [159] = {text = "Enter Arcade", coord = vector3(4.10, 220.42, 107.5), h = 250.43, dest = {158}},
 
-    -- Split Stextes
-    [160] = {text = 160, coord = vector3(-430.06, 261.72, 83.0), h = 170.49, name = "Exit Split Stextes West", dest = {161}},
-    [161] = {text = 161, coord = vector3(-458.85, 284.66, 78.5), h = 266.75, name = "Split Stextes West", dest = {160}},
+    -- Split Sides Comedy Store
+    [160] = {text = "Exit Split Snamees West", coord = vector3(-430.06, 261.72, 83.0), h = 170.49, dest = {161}},
+    [161] = {text = "Split Snamees West", coord = vector3(-458.85, 284.66, 78.5), h = 266.75, dest = {160}},
 
     -- North Yankton
-    --	[162] = {text = 162, coord = vector3(3208.36, -4864.95, 111.5), h = 356.17, name = "North Yankton", dest = {163}},
-    --	[163] = {text = 163, coord = vector3(-1045.95, -2751.59, 21.0), h = 327.94, name = "LSIA", dest = {162}},
+    --[162] = {text = 162, coord = vector3(3208.36, -4864.95, 111.5), h = 356.17, name = "North Yankton", dest = {163}},
+    --[163] = {text = 163, coord = vector3(-1045.95, -2751.59, 21.0), h = 327.94, name = "LSIA", dest = {162}},
 
     -- Morgue
-    [164] = {text = 164, coord = vector3(275.44, -1361.26, 24.3), h = 48.5, name = "Morgue", dest = {165}},
-    [165] = {text = 165, coord = vector3(240.74, -1379.18, 33.55), h = 147.44, name = "Exit Morgue", dest = {164}},
+	[164] = {text = "Morgue", coord = vector3(275.44, -1361.26, 24.3), h = 48.5, dest = {165}},
+    [165] = {text = "Exit Morgue", coord = vector3(240.74, -1379.18, 33.55), h = 147.44, dest = {164}},
 
     -- Movie Theatre
-    [168] = {text = 168, coord = vector3(-1423.6, -215.54, 46.2), h = 360, name = "Exit Movie Theatre", dest = {169}},
-    [169] = {text = 169, coord = vector3(-1436.89, -257.8, 16.09), h = 359.81, name = "Movie Theatre", dest = {168}},
+    [168] = {text = "Exit Movie Theatre", coord = vector3(-1423.6, -215.54, 46.2), h = 360, dest = {169}},
+    [169] = {text = "Movie Theatre", coord = vector3(-1436.89, -257.8, 16.09), h = 359.81, dest = {168}},
 
     -- Submarine
-    [172] = {text = 172, coord = vector3(493.69, -3222.95, 10.5), h = 179.25, name = "Exit Submarine", dest = {173}},
-    [173] = {text = 173, coord = vector3(514.25, 4888.15, -62.6), h = 176.33, name = "Submarine", dest = {172}},
+    [172] = {text = "Exit Submarine", coord = vector3(493.69, -3222.95, 10.5), h = 179.25, dest = {173}},
+    [173] = {text = "Submarine", coord = vector3(514.25, 4888.15, -62.6), h = 176.33, dest = {172}},
 
     -- Server Farm
-    [174] = {text = 174, coord = vector3(2476.11, -384.15, 94.2), h = 268.8, name = "Exit Server Farm", dest = {175}},
-    [175] = {text = 175, coord = vector3(2154.87, 2921.0, -81.26), h = 270.67, name = "Server Farm", dest = {174}},
+    [174] = {text = "Exit Server Farm", coord = vector3(2476.11, -384.15, 94.2), h = 268.8, dest = {175}},
+    [175] = {text = "Server Farm", coord = vector3(2154.87, 2921.0, -81.26), h = 270.67, dest = {174}},
     -- IAA
-    [176] = {text = 176, coord = vector3(2049.84, 2949.75, 47.55), h = 256.84, name = "Exit IAA Facility", dest = {177}},
-    [177] = {text = 177, coord = vector3(2155.05, 2921.00, -62.09), h = 91.39, name = "IAA Facility", dest = {176}},
+    [176] = {text = "Exit IAA Facility", coord = vector3(2049.84, 2949.75, 47.55), h = 256.84, dest = {177}},
+    [177] = {text = "IAA Facility", coord = vector3(2155.05, 2921.00, -62.09), h = 91.39, dest = {176}},
 
     -- Doomsday
-    [178] = {text = 178, coord = vector3(1255.97, 4796.37, -39.24), h = 346.87, name = "Doomsday Facility", dest = {179}},
-    [179] = {text = 179, coord = vector3(-356.04, 4823.27, 142.74), h = 138.58, name = "Exit Doomsday Facility", dest = {178}},
-    [180] = {text = 180, coord = vector3(369.49, 6319.51, -160.12), h = 200.0, name = "Missile Silo", dest = {181}},
-    [181] = {text = 181, coord = vector3(1259.31, 4799.19, -39.5), h = 78.22, name = "Exit Missile Silo", dest = {180}},
+    [178] = {text = "Doomsday Facility", coord = vector3(1255.97, 4796.37, -39.24), h = 346.87, dest = {179}},
+    [179] = {text = "Exit Doomsday Facility", coord = vector3(-356.04, 4823.27, 142.74), h = 138.58, dest = {178}},
+    [180] = {text = "Missile Silo", coord = vector3(369.49, 6319.51, -160.12), h = 200.0, dest = {181}},
+    [181] = {text = "Exit Missile Silo", coord = vector3(1259.31, 4799.19, -39.5), h = 78.22, dest = {180}},
 
     -- Casino elevators
-    [197] = {text = 197, coord = vector3(964.83, 58.48, 112.37), h = 64.13, name = "Rooftop", dest = {198, 199, 200, 201, 202, 203}},
-    [198] = {text = 198, coord = vector3(2518.76, -262.10, -39.13), h = 4.95, name = "Hotel", dest = {197, 199, 200, 201, 202, 203}},
-    [199] = {text = 199, coord = vector3(2517.50, -260.94, -55.12), h = 9.16, name = "Offices", dest = {197, 198, 200, 201, 202, 203}},
-    [200] = {text = 200, coord = vector3(944.95, 47.65, 80.29), h = 70.56, name = "Ground Floor", dest = {197, 198, 199, 201, 202, 203}},
-    [201] = {text = 201, coord = vector3(2517.54, -263.30, -58.72), h = 187.14, name = "Security", dest = {197, 198, 199, 200, 202, 203}},
-    [202] = {text = 202, coord = vector3(2518.55, -279.10, -64.72), h = 268.34, name = "Loading Bay", dest = {197, 198, 199, 200, 201, 203}},
-    [203] = {text = 203, coord = vector3(2518.42, -279.24, -70.71), h = 270.35, name = "Vault", dest = {197, 198, 199, 200, 201, 202}},
+    [197] = {text = "Rooftop", coord = vector3(964.83, 58.48, 112.37), h = 64.13, dest = {198, 199, 200, 201, 202, 203}},
+    [198] = {text = "Hotel", coord = vector3(2518.76, -262.10, -39.13), h = 4.95, dest = {197, 199, 200, 201, 202, 203}},
+    [199] = {text = "Offices", coord = vector3(2517.50, -260.94, -55.12), h = 9.16, dest = {197, 198, 200, 201, 202, 203}},
+    [200] = {text = "Ground Floor", coord = vector3(944.95, 47.65, 80.29), h = 70.56, dest = {197, 198, 199, 201, 202, 203}},
+    [201] = {text = "Security", coord = vector3(2517.54, -263.30, -58.72), h = 187.14, dest = {197, 198, 199, 200, 202, 203}},
+    [202] = {text = "Loading Bay", coord = vector3(2518.55, -279.10, -64.72), h = 268.34, dest = {197, 198, 199, 200, 201, 203}},
+    [203] = {text = "Vault", coord = vector3(2518.42, -279.24, -70.71), h = 270.35, dest = {197, 198, 199, 200, 201, 202}},
 
     -- Casino vehicle entrance
-    [204] = {text = 204, coord = vector3(999.05, -53.19, 74.95), h = 211.72, name = "Exit Casino Loading Bay", dest = {205}},
-    [205] = {text = 205, coord = vector3(2654.94, -343.43, -64.72), h = 58.87, name = "Enter Casino Loading Bay", dest = {204}},
+    [204] = {text = "Exit Casino Loading Bay", coord = vector3(999.05, -53.19, 74.95), h = 211.72, dest = {205}},
+    [205] = {text = "Enter Casino Loading Bay", coord = vector3(2654.94, -343.43, -64.72), h = 58.87, dest = {204}},
 
     -- Arena Wars
-    --	[206] = {text = 206, coord = vector3(-283.5996, -1920.6, 29.94605), h = 0.0, name = "Exit Arena", dest = {207}},
-    --	[207] = {text = 207, coord = vector3(2834.96, -3918.024, 140.0008), h = 0.0, name = "Enter Arena", dest = {206}},
+    --	[206] = {text = "Exit Arena", coord = vector3(-283.5996, -1920.6, 29.94605), h = 0.0, dest = {207}},
+    --	[207] = {text = "Enter Arena", coord = vector3(2834.96, -3918.024, 140.0008), h = 0.0, dest = {206}},
 
     -- Music Locker
-    [208] = {text = 208, coord = vector3(1578.25, 253.86, -46.01), h = 181.46, name = "Leave Music Locker", dest = {209}},
-    [209] = {text = 209, coord = vector3(987.57, 79.82, 80.99), h = 330.39, name = "Enter Music Locker", dest = {208}},
+    [208] = {text = "Leave Music Locker", coord = vector3(1578.25, 253.86, -46.01), h = 181.46, dest = {209}},
+    [209] = {text = "Enter Music Locker", coord = vector3(987.57, 79.82, 80.99), h = 330.39, dest = {208}},
 
     -- Tuner DLC Garage 
     [210] = {text = "Leave Tuners Car Garage", dest = {211}, coord = vector3(-1357.85, 165.96, -99.03), h = 184.89},
