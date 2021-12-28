@@ -39,7 +39,8 @@ client_scripts {
 
 -- These will not work unless the gamebuild is forced to a higher dlc level than FiveM's default Arena Wars level.
 
-	"client/maps/casino/*.lua", --  DLC Diamond Casino (Requires forced gamebuildb 2060 or higher)
+--	"client/maps/arcade/*.lua",  -- DLC Tuners (Requires forced gamebuild 2189 or higher)
+	"client/maps/casino/*.lua",  -- DLC Tuners (Requires forced gamebuild 2060 or higher)
 	"client/maps/mptuners/*.lua",  -- DLC Tuners (Requires forced gamebuild 2189 or higher)
 	"client/maps/mpsecurity/*.lua",  --DLC Contracts (Requires forced gamebuild 2545 or higher)
 
