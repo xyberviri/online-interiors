@@ -3,8 +3,9 @@ local blips = {
     {text = "Michael's House", color = 69, sprite = 40, coord = vector3(-817.93, 177.68, 72.22)},
     {text = "Franklin's House", color = 69, sprite = 40, coord = vector3(8.32, 539.75, 176.03)}, -- Mansion
     {text = "Franklin's House", color = 69, sprite = 40, coord = vector3(14.23, -1441.7, 31.1)}, -- Yee Yee Ass Haircut, Aunt Denise
+	{text = "Trevor's Trailer", color = 40, sprite = 40, coord = vector3(1981.51, 3819.35, 32.25)},
 
-    {text = "Lester's House", color = 69, sprite = 40, coord = vector3(1274.65, -1720.83, 54.68)}, -- Yee Yee Ass Haircut, Aunt Denise
+    {text = "Lester's House", color = 1, sprite = 40, coord = vector3(1274.65, -1720.83, 54.68)},
 
     -- Apartments
     {text = "Apartment", color = 3, sprite = 40, coord = vector3(-911.91, -451.08, 39.61)},
@@ -82,7 +83,7 @@ local blips = {
     {text = "Yacht", color = 3, sprite = 455, coord = vector3(-1363.72, 6734.10, 2.44)},
 
     -- Arcade. Requires Enforcing Of Gamebuild. There are other locations, however I picked this one  --
-    {text = "Arcade", color = 15, sprite = 647, coord = vector3(4.10, 220.42, 107.5)},
+   -- {text = "Arcade", color = 15, sprite = 647, coord = vector3(4.10, 220.42, 107.5)},
 
     -- Split Sides West Comedy Store
     {text = "Split Sides West", color = 0, sprite = 102, coord = vector3(-430.17, 261.5, 82.32)},
@@ -182,6 +183,30 @@ local blips = {
 
     -- Cluckin' Bell Factory --
     {text = "Cluckin' Bell Factory", color = 4, sprite = 84, coord = vector3(-71.49, 6266.47, 31.15)},
+
+	-- Casino --
+    {text = "Casino", color = 4, sprite = 679, coord = vector3(917.3, 50.76, 80.9)},
+	
+
+	-- Bolingbroke Penitentiary --
+    {text = "Bolingbroke Penitentiary", color = 47, sprite = 526, coord = vector3(1851.78, 2606.26, 45.67)},
+	
+	-- Fort Zancudo --
+    {text = "Fort Zancudo", color = 76, sprite = 421, coord = vector3(-2067.11, 3097.35,32.81)},
+	
+	-- Benny's Original Motorwork --
+    {text = "Benny's Original Motorwork", color = 64, sprite = 446, coord = vector3(-205.57, -1309.5, 30.72)},
+	
+	-- Los Santos Customs --
+    {text = "Los Santos Customs", color = 64, sprite = 72, coord = vector3(-364.84, -131.46, 38.68)},
+	{text = "Los Santos Customs", color = 64, sprite = 72, coord = vector3(714.01, -1082.67, 22.33)},
+	{text = "Los Santos Customs", color = 64, sprite = 72, coord = vector3(-1135.07, -1984.93, 13.17)},
+	{text = "Los Santos Customs", color = 64, sprite = 72, coord = vector3(1193.45, 2670.64, 37.78)},
+	{text = "Los Santos Customs", color = 64, sprite = 72, coord = vector3(120.33, 6608.87, 31.92)},
+
+
+
+
 
     -- Los Santos Tuners DLC Teleports. Requires Enforcing of Gamebuild 2372
 
