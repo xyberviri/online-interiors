@@ -267,7 +267,7 @@ local teleports = {
     [211] = {text = "Enter Tuners Car Garage", dest = {210}, coord = vector3(798.51, -962.21, 25.97), h = 92.76},
 
     -- Tuner DLC Car Meet  
-    [212] = {text = "Leave Tuners Car Meet", dest = {213}, coord = vector3(-2220.81, 1157.72, -23.26), h = 182.38},
+    [212] = {text = "Leave Tuners Car Meet", dest = {213}, coord = vector3(-2220.81, 1157.72, 30.23), h = 182.38},
     [213] = {text = "Enter Tuners Car Meet", dest = {212}, coord = vector3(782.47, -1868.65, 29.25), h = 266.53},
 
     -- The Contract DLC Agencies
