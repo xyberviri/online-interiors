@@ -1,6 +1,6 @@
 # Online Interiors
 
-This repository is a FiveM resource created by Cloudy that adds ipl/map edits, teleport's, and blips to GTA V.
+This repository is a FiveM resource created by Cloudy that adds ipl/map edits, teleport's, and blips to the world of GTA 5.
 
 This fork adds a fix for Franklin's mansion after the mpsecurity update, (courtesy of GTA5Mods member, katsutosh) as well as adds teleporters and blips for Diamond Casino & Resort, Los Santos Tuners, and the latest DLC, The Contract (aka mpsecurity).
 
@@ -46,19 +46,19 @@ ensure online_interiors
 
 ### Note from Cloudy
 
-- I wanted to do this because I never really saw something with Teleports and Blips and most of the working online interiors for people without ESX or VRP.
-- I hope you can enjoy, I put in a lot of hours to complete this. Please expect there to be updates.
+- I wanted to do this because I've never really seen something with Teleports and Blips, without relying on ESX, VRP or other frameworks.
+- I hope you can enjoy, I put in a lot of hours to complete this.
 - Also, I put in a lot of work so please don’t go around saying you did all of this stuff, because you didn’t.
 
 ----------------------
 
 ### Note from TayMcKenzieNZ
 
-- I admire Cloudy and Bob's efforts and by no means do I take any credit. I have simply continued their legacy in updating this resource for use with interiors featured in the Contracts DLC aka mpsecurity / 2545, as well as added fixes and additional props. These fixes and additions include:
+I admire Cloudy and Bob's efforts and by no means do I take any credit. I have simply continued their legacy in updating this resource for use with interiors featured in the Contracts DLC aka mpsecurity / 2545, as well as added fixes and additional props. These fixes and additions include:
 
 - Added  additional chairs inside Franklin and MP offices
 
-- Removed obstructing prop from a TV prop on 2nd floor of Agencies, allowing players visible access when rendering videos to the screen via [pmms by Kibook](https://github.com/kibook/pmms) or other scripts.
+- Removed obstructing object from a TV prop on 2nd floor of Agencies, allowing players visible access when rendering videos to the screen via [pmms by Kibook](https://github.com/kibook/pmms) or other scripts.
 
 - Changed sunlounger prop on music studio rooftop to work alongside [fivem scenarios script](https://github.com/kibook/fivem-scenarios)
 
