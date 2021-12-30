@@ -66,6 +66,12 @@ I admire Cloudy and Bob's efforts and by no means do I take any credit. I have s
 
 ----------------------
 
+# Comedy Club 🎭
+
+Collision fix can be added to the stream folder I have already added. Grab it from here:
+
+ [Comedy Club Collision Fix](https://github.com/Nowimps8/nw_comedyClub) 
+
 ## Thanks
 
 Huge thanks to [AvaN0x](https://github.com/AvaN0x) and the community over at [the FiveM forums](https://forum.cfx.re/t/the-contract-infos-build-2545/4792123) for assisting me with this. Your assistance in this matter is greatly appreciated.
