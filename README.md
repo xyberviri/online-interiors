@@ -64,6 +64,10 @@ I admire Cloudy and Bob's efforts and by no means do I take any credit. I have s
 
 - Replaced small TV in studio smoke room (with logos covering screen) with a better tv prop, allowing players visible access when rendering videos to the screen via hypnonema or other scripts
 
+- Fixed Tuners exterior garage door from opening
+
+- Removed annoying doors from penthouse office and penthouse cinema
+
 ----------------------
 
 # Comedy Club 🎭
