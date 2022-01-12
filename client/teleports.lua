@@ -516,7 +516,7 @@ Citizen.CreateThread(function()
 
         for i, var in pairs(teleports) do
             if (#var.dest > 0) then
-                local distance = #((vehicle and vehicleCoords or playerCoords) - var.coord)
+                local distance = #((vehicle ~= 0 and vehicleCoords or playerCoords) - var.coord)
 
                 -- Draw distance
                 if (distance < 75.0) then
