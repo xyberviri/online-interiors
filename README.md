@@ -68,6 +68,10 @@ I admire Cloudy and Bob's efforts and by no means do I take any credit. I have s
 
 - Removed annoying doors from penthouse office and penthouse cinema
 
+- Removed tables and their respective collisions from agency 2nd floor living room and replaced with better table and props, allowing access to sir down and actually watch rendered content on the TV prop
+
+- Added Lucky Wheel prop to Casino
+
 ----------------------
 
 # Comedy Club 🎭
