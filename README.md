@@ -76,7 +76,7 @@ I admire Cloudy and Bob's efforts and by no means do I take any credit. I have s
 
 # Comedy Club 🎭
 
-Collision fix by [https://github.com/Nowimps8](Nowimps8) can be added to the stream folder I have already added. Grab it from here:
+Collision fix by [Nowimps8](https://github.com/Nowimps8) can be added to the stream folder I have already added. Grab it from here:
 
  [Comedy Club Collision Fix](https://github.com/TayMcKenzieNZ/nw_comedyClub)
 
