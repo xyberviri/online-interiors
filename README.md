@@ -76,9 +76,15 @@ I admire Cloudy and Bob's efforts and by no means do I take any credit. I have s
 
 # Comedy Club 🎭
 
-Collision fix can be added to the stream folder I have already added. Grab it from here:
+Collision fix by [Nowimps8](https://github.com/Nowimps8) can be added to the stream folder I have already added. Grab it from here:
 
- [Comedy Club Collision Fix](https://github.com/Nowimps8/nw_comedyClub) 
+ [Comedy Club Collision Fix](https://github.com/TayMcKenzieNZ/nw_comedyClub)
+
+- Grab the `v_comedy.ybn` file
+
+- Create a new folder inside online-interiors `stream` folder and name it `Comedy Club Collisions`. Place `v_comedy.ybn` inside this folder
+
+You're all set 😃
 
 ----------------------
 
