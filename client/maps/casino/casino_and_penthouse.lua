@@ -53,20 +53,20 @@ Citizen.CreateThread(function()
     -- Vault -- /tp 2500.0 -240.0 -70.0 --
     -- ==================================--
     local interiorid = GetInteriorAtCoords(2488.348, -267.3637, -71.64563)
-    ToggleEntitySet(interiorid, "set_vault_door") -- Open vault, true
-	ToggleEntitySet(interiorid, "set_vault_dressing") -- all the stuff that spawns on the floor
-	-- ToggleEntitySet(interiorid, "set_vault_cash_01", true)
+    ToggleEntitySet(interiorid, "set_vault_door", true) -- Open vault
+    ToggleEntitySet(interiorid, "set_spawn_group1", true) -- small locker on the sides and arts
+    -- ToggleEntitySet(interiorid, "set_spawn_group2", false) -- small locker on the sides and arts
+    ToggleEntitySet(interiorid, "set_vault_dressing", true) -- all the stuff that spawns on the floor
+    -- ToggleEntitySet(interiorid, "set_vault_cash_01", true)
     ToggleEntitySet(interiorid, "set_vault_cash_02", true)
-    ToggleEntitySet(interiorid, "set_spawn_group1") -- small locker on the sides and arts
-    -- ToggleEntitySet(interiorid, "set_spawn_group2") -- small locker on the sides and arts
     ToggleEntitySet(interiorid, "set_vault_art_01", true)
     -- ToggleEntitySet(interiorid, "set_vault_art_02", true)
     ToggleEntitySet(interiorid, "set_vault_gold_01", true)
-    --ToggleEntitySet(interiorid, "set_vault_gold_02", true)
-    --ToggleEntitySet(interiorid, "set_vault_diamonds_01", true)
+    ToggleEntitySet(interiorid, "set_vault_gold_02", true)
+    ToggleEntitySet(interiorid, "set_vault_diamonds_01", true)
     ToggleEntitySet(interiorid, "set_vault_diamonds_02", true)
-    -- ToggleEntitySet(interiorid, "set_vault_door_lockedxd") -- Locked vault door
-    -- ToggleEntitySet(interiorid, "set_vault_door_broken") -- Vault door exloded/broken
+    -- ToggleEntitySet(interiorid, "set_vault_door_lockedxd", false) -- Locked vault door
+    -- ToggleEntitySet(interiorid, "set_vault_door_broken", false) -- Vault door exloded/broken
     -- ToggleEntitySet(interiorid, "set_vault_wall_damagedxd", false) -- Vault wall damaged -- always broken?
     RefreshInterior(interiorid)
 
