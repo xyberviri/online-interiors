@@ -312,6 +312,12 @@ local teleports = {
 	-- Casino Penthouse
 	[232] = {text = "Leave via Rooftop", dest = {233}, coord = vector3(966.71, 65.62, 112.55), h = 117.99},
 	[233] = {text = "Enter Penthouse", dest = {232}, coord = vector3(969.82, 63.1, 112.56), h = 244.2},
+	
+	
+	
+	-- Cayo Perico Elevator
+	[234] = {text = "Basement", dest = {235}, coord = vector3(5012.48, -5748.91, 28.95), h = 142.41},
+	[235] = {text = "Office", dest = {234}, coord = vector3(5013.69, -5744.81, 15.48), h = 147.46},
 
 
 }
@@ -522,8 +528,7 @@ Citizen.CreateThread(function()
                 if (distance < 75.0) then
                     wait = 0
 
-                    DrawMarker(1, var.coord.x, var.coord.y, var.coord.z - 1.02, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.7, 0.7, 0.9, 77, 181, 255, 0.8, false, false, 2,
-                        false, nil, nil, false) -- LAST 4 SETS OF NUMBERS CONTROL THE COLOUR OF THE MARKER
+                    DrawMarker(1, var.coord.x, var.coord.y, var.coord.z - 1.02, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.7, 0.7, 0.9, 77, 181, 255, 0.8, false, false, 2,false, nil, nil, false) -- LAST 4 SETS OF NUMBERS CONTROL THE COLOUR OF THE MARKER
                     -- DrawMarker(1, var.coord.x, var.coord.y, var.coord.z - 1.02, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2.5, 2.5, 0.9, 255, 255, 255, 255, false, false, 2, false, nil, nil, false)
 
                     -- Interaction distance
