@@ -2,7 +2,7 @@
 
 This repository is a FiveM resource created by Cloudy that adds ipl/map edits, teleport's, and blips to the world of GTA 5.
 
-This fork adds a fix for Franklin's mansion after the mpsecurity update, (courtesy of GTA5Mods member, katsutosh) as well as adds teleporters and blips for Diamond Casino & Resort, Los Santos Tuners, and the latest DLC, The Contract (aka mpsecurity).
+This fork adds a fix for Franklin's mansion after the mpsecurity update, (courtesy of GTA5Mods member, katsutosh) as well as adds teleporters and blips for Diamond Casino & Resort, Los Santos Tuners, and The Contract (aka mpsecurity).
 
 ----------------------
 
@@ -54,7 +54,9 @@ ensure online_interiors
 
 ### Note from TayMcKenzieNZ
 
-I admire Cloudy and Bob's efforts and by no means do I take any credit. I have simply continued their legacy in updating this resource for use with interiors featured in the Contracts DLC aka mpsecurity / 2545, as well as added fixes and additional props. These fixes and additions include:
+I admire Cloudy and Bob's efforts and by no means do I take any credit. I have simply continued their legacy in updating this resource for use with interiors featured in the Contracts DLC aka mpsecurity / 2545, as well as added fixes and additional props.
+
+These fixes and additions include:
 
 - Added  additional chairs inside Franklin and MP offices
 
@@ -64,13 +66,19 @@ I admire Cloudy and Bob's efforts and by no means do I take any credit. I have s
 
 - Replaced small TV in studio smoke room (with logos covering screen) with a better tv prop, allowing players visible access when rendering videos to the screen via hypnonema or other scripts
 
-- Fixed Tuners exterior garage door from opening
+- fixed Tuners exterior garage door from opening 
 
-- Removed annoying doors from penthouse office and penthouse cinema
+- Removed obstructing collisions from Tuners Car Meet interior
 
-- Removed tables and their respective collisions from agency 2nd floor living room and replaced with better table and props, allowing access to sir down and actually watch rendered content on the TV prop
+- Removed gates from Tuners Car Meet interior for vehicle access
+
+- Removed annoying doors from penthouse office and penthouse cinema as they do not open and close correctly
+
+- Removed tables and their respective collisions from agency 2nd floor living room and replaced with better table and props, allowing access to sit down and actually watch rendered content on the TV prop
 
 - Added Lucky Wheel prop to Casino
+
+- Configured Casino Vault entitysets and removed doors leading to it
 
 ----------------------
 
@@ -109,6 +117,37 @@ You can however add a folder to the `stream` folder and add access to the club u
 You're all set 😃
 
 ----------------------
+
+# FAQ 
+
+**Q When I visit a particular location, it loads, however it flickers through different walls and floors etc?**
+
+**A:** Check the `online-interiors/client/maps/` as I have configured and provided IPLs and entitysets for some locations, which could be clashing with your copy of bob74_IPL. 
+
+You can simply set it up how you prefer, or comment it out of the fxmanifest.
+
+----------------------
+
+**Q: I have custom MLOs in my server, can I use this resource to add map blips for them?**
+
+**A:** You most certainly can. You may use this resource ***in it's entirety*** to open `online-interiors/client/blips.lua` and add it after the last one in the list like so:
+
+```lua
+
+-- Custom MLO Name Here
+
+    {text = "Custom MLO Name Here", color = X, sprite = XXX, coord = vector3(XXX.XX, XXX.XX, XX.XX)},
+```
+
+Enter a name for the MLO / location then provide a [color and sprite number](https://docs.fivem.net/docs/game-references/blips/) and the coordinates.
+
+----------------------
+
+**Q: I have an MLO that has an elevator, can I use this resource to teleport between them?**
+
+**A:** You may use this resource ***in it's entirety*** to add teleports if you wish to.
+
+Open `online-interiors/client/teleports.lua` and have a look at how I have done the Casino Elevators. This should give you a rough idea of how it's done.
 
 
 
