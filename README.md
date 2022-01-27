@@ -76,7 +76,9 @@ I admire Cloudy and Bob's efforts and by no means do I take any credit. I have s
 
 # Comedy Club 🎭
 
-Collision fix by [Nowimps8](https://github.com/Nowimps8) can be added to the stream folder I have already added. Grab it from here:
+Collision fix by [Nowimps8](https://github.com/Nowimps8) can be added to the stream folder I have already provided. 
+
+Grab it from here:
 
  [Comedy Club Collision Fix](https://github.com/TayMcKenzieNZ/nw_comedyClub)
 
@@ -87,6 +89,28 @@ Collision fix by [Nowimps8](https://github.com/Nowimps8) can be added to the str
 You're all set 😃
 
 ----------------------
+
+# Bahama Mamas Club 🍸
+
+I have added a map blip for this club, however by default, you can't enter it; this was done by Rockstar Games themselves.
+
+There as no teleports as I didn't think this was necessary, plus there are a ton of paid and free MLO resources for this club.
+
+You can however add a folder to the `stream` folder and add access to the club using this resource here:
+
+[Bahaha Mamas - Add Doors](https://github.com/TayMcKenzieNZ/nw_bahamaMama)
+
+- Grab all the files from the `nw_bahamaMama/stream` folder
+
+- Create a new folder inside online-interiors `stream` folder and name it `Bahama Mamas`
+
+- Paste the copied files inside this folder
+
+You're all set 😃
+
+----------------------
+
+
 
 ## Thanks 🙏
 
