@@ -17,21 +17,21 @@ This fork adds a fix for Franklin's mansion after the mpsecurity update, (courte
 
 ## How to Install
 
-### Git Clone
-
 1. Run CMD in your "resources" folder and type "git clone <https://github.com/TayMcKenzieNZ/online-interiors.git>".
-2. Download the latest version of "bob74_ipl" from "https://github.com/Bob74/bob74_ipl/releases".
-3. Install "bob74_ipl" in the "resources" folder. (MUST BE NAMED "bob74_ipl" AND BE DIRECTLY IN RESOURCES FOLDER)
-4. Ensure "bob74_ipl", "online_interiors" in your "server.cfg". ("bob74_ipl" MUST BE STARTED BEFORE "online_interiors")
-5. Enjoy your interiors.
 
-### Manually
+Alternatively, you can download the **zip** folder from above and put the files in your **"resources"** folder.
 
-1. Download the files from above and put them in your "resources" folder.
-2. Download the latest version of "bob74_ipl" from "https://github.com/Bob74/bob74_ipl/releases".
-3. Install "bob74_ipl" in the "resources" folder. (MUST BE NAMED "bob74_ipl" AND BE DIRECTLY IN RESOURCES FOLDER)
-4. Ensure "bob74_ipl", "online_interiors" in your "server.cfg". ("bob74_ipl" MUST BE STARTED BEFORE "online_interiors")
-5. Enjoy your interiors.
+2. Download the latest version of "bob74_ipl" from "https://github.com/Bob74/bob74_ipl/releases" and place the folder in the "resources" folder. 
+
+**(MUST BE NAMED "bob74_ipl" AND BE DIRECTLY IN RESOURCES FOLDER)**
+
+3. Download the latest recommended artifacts [for Windows](https://runtime.fivem.net/artifacts/fivem/build_server_windows/master/) **or** [for Linux](https://runtime.fivem.net/artifacts/fivem/build_proot_linux/master/)
+
+4. Enforce the Gamebuild to 2545 [How To Enforce Gamebuild [Tutorial]](https://forum.cfx.re/t/tutorial-forcing-gamebuild-to-casino-cayo-perico-or-tuners-update/4784977)
+
+5. Ensure "bob74_ipl" and "online_interiors" in your "server.cfg". **("bob74_ipl" MUST BE STARTED BEFORE "online_interiors")**
+
+7. Enjoy your interiors.
 
 ----------------------
 
