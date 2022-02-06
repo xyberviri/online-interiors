@@ -114,14 +114,14 @@ local teleports = {
     [84] = {text = "Exit Nightclub ", dest = {83}, coord = vector3(346.02, -977.81, 29.37), h = 277.02, veh = false},
     [85] = {text = "Exit Nightclub", dest = {86, 87}, coord = vector3(333.28, -997.71, 29.12), h = 186.64, veh = false},
     [86] = {text = "Nightclub Garage", dest = {85, 87}, coord = vector3(-1637.61, -2989.78, -77.54), h = 261.02},
-    [87] = {text = "Nightclub Basement", dest = {85, 86}, coord = vector3(-1515.97, -2978.62, -80.89), h = 268.58}, veh = false,
+    [87] = {text = "Nightclub Basement", dest = {85, 86}, coord = vector3(-1515.97, -2978.62, -80.89), h = 268.58, veh = false},
     [88] = {text = "Nightclub Garage", dest = {89}, coord = vector3(-1618.58, -2998.95, -78.15), h = 0.79},
     [89] = {text = "Nightclub Basement", dest = {88}, coord = vector3(-1507.62, -3017.20, -79.24), h = 347.61, veh = false},
 
     -- Houses
     [90] = {text = "3655 Wild Oats Drive", dest = {91}, coord = vector3(-174.33, 497.53, 137.67), h = 190.77, veh = false},
     [91] = {text = "Exit House", dest = {90}, coord = vector3(-174.90, 502.37, 137.42), h = 77.73, veh = false},
-    [92] = {text = "Bedroom", dest = {93}, coord = vector3(-167.59, 478.52, 133.84), h = 344.39}, veh = false,
+    [92] = {text = "Bedroom", dest = {93}, coord = vector3(-167.59, 478.52, 133.84), h = 344.39, veh = false},
     [93] = {text = "Deck", dest = {92}, coord = vector3(-167.33, 476.79, 133.90), h = 189.39, veh = false},
     [94] = {text = "2044 North Conker Ave", dest = {95}, coord = vector3(341.75, 437.58, 149.39), h = 122.12, veh = false},
     [95] = {text = "Exit House", dest = {94}, coord = vector3(346.83, 440.71, 147.70), h = 301.65, veh = false},
@@ -251,8 +251,8 @@ local teleports = {
     [203] = {text = "Vault", coord = vector3(2521.23, -279.17, -70.72), h = 270.35, dest = {197, 198, 199, 200, 202, 201}, veh = false},
 
     -- Casino vehicle entrance
-        [204] = {text = "Exit Casino Loading Bay", coord = vector3(999.05, -53.19, 74.95), h = 211.72, dest = {205}},
-        [205] = {text = "Enter Casino Loading Bay", coord = vector3(2654.94, -343.43, -64.72), h = 58.87, dest = {204}},
+    [204] = {text = "Exit Casino Loading Bay", coord = vector3(999.05, -53.19, 74.95), h = 211.72, dest = {205}},
+    [205] = {text = "Enter Casino Loading Bay", coord = vector3(2654.94, -343.43, -64.72), h = 58.87, dest = {204}},
 
     --       Arena Wars
     --	[206] = {text = "Exit Arena", coord = vector3(-283.5996, -1920.6, 29.94605), h = 0.0, dest = {207}},
