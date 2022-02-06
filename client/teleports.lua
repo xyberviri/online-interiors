@@ -204,20 +204,20 @@ local teleports = {
     [154] = {text = "Nightclub Basement", dest = {153}, coord = vector3(-1507.66, -3024.46, -79.24), h = 177.89},
     [155] = {text = "Del Perro Heights Garage", dest = {54, 55, 56, 57}, coord = vector3(-1456.37, -514.44, 31.58), h = 211.62},
 
- -- Arcade
-  --  [158] = {text = "Exit Arcade", coord = vector3(2737.96, -374.11, -48.0), h = 174.4, dest = {159}},
-  --  [159] = {text = "Enter Arcade", coord = vector3(4.10, 220.42, 107.5), h = 250.43, dest = {158}},
+    -- Arcade
+    --  [158] = {text = "Exit Arcade", coord = vector3(2737.96, -374.11, -48.0), h = 174.4, dest = {159}},
+    --  [159] = {text = "Enter Arcade", coord = vector3(4.10, 220.42, 107.5), h = 250.43, dest = {158}},
 
     -- Split Sides Comedy Store
     [160] = {text = "Exit Split Snamees West", coord = vector3(-430.06, 261.72, 83.0), h = 170.49, dest = {161}},
     [161] = {text = "Split Snamees West", coord = vector3(-458.85, 284.66, 78.5), h = 266.75, dest = {160}},
 
     -- North Yankton
-    --[162] = {text = 162, coord = vector3(3208.36, -4864.95, 111.5), h = 356.17, name = "North Yankton", dest = {163}},
-    --[163] = {text = 163, coord = vector3(-1045.95, -2751.59, 21.0), h = 327.94, name = "LSIA", dest = {162}},
+    -- [162] = {text = 162, coord = vector3(3208.36, -4864.95, 111.5), h = 356.17, name = "North Yankton", dest = {163}},
+    -- [163] = {text = 163, coord = vector3(-1045.95, -2751.59, 21.0), h = 327.94, name = "LSIA", dest = {162}},
 
     -- Morgue
-	[164] = {text = "Morgue", coord = vector3(275.44, -1361.26, 24.3), h = 48.5, dest = {165}},
+    [164] = {text = "Morgue", coord = vector3(275.44, -1361.26, 24.3), h = 48.5, dest = {165}},
     [165] = {text = "Exit Morgue", coord = vector3(240.74, -1379.18, 33.55), h = 147.44, dest = {164}},
 
     -- Movie Theatre
@@ -251,16 +251,16 @@ local teleports = {
     [203] = {text = "Vault", coord = vector3(2521.23, -279.17, -70.72), h = 270.35, dest = {197, 198, 199, 200, 202, 201}},
 
     -- Casino vehicle entrance
---    [204] = {text = "Exit Casino Loading Bay", coord = vector3(999.05, -53.19, 74.95), h = 211.72, dest = {205}},
---    [205] = {text = "Enter Casino Loading Bay", coord = vector3(2654.94, -343.43, -64.72), h = 58.87, dest = {204}},
+    --    [204] = {text = "Exit Casino Loading Bay", coord = vector3(999.05, -53.19, 74.95), h = 211.72, dest = {205}},
+    --    [205] = {text = "Enter Casino Loading Bay", coord = vector3(2654.94, -343.43, -64.72), h = 58.87, dest = {204}},
 
---       Arena Wars
+    --       Arena Wars
     --	[206] = {text = "Exit Arena", coord = vector3(-283.5996, -1920.6, 29.94605), h = 0.0, dest = {207}},
     --	[207] = {text = "Enter Arena", coord = vector3(2834.96, -3918.024, 140.0008), h = 0.0, dest = {206}},
 
     -- Music Locker
---    [208] = {text = "Leave Music Locker", coord = vector3(1578.25, 253.86, -46.01), h = 181.46, dest = {209}},
---    [209] = {text = "Enter Music Locker", coord = vector3(987.57, 79.82, 80.99), h = 330.39, dest = {208}},
+    --    [208] = {text = "Leave Music Locker", coord = vector3(1578.25, 253.86, -46.01), h = 181.46, dest = {209}},
+    --    [209] = {text = "Enter Music Locker", coord = vector3(987.57, 79.82, 80.99), h = 330.39, dest = {208}},
 
     -- Tuner DLC Garage 
     [210] = {text = "Leave Tuners Car Garage", dest = {211}, coord = vector3(-1357.85, 165.96, -99.03), h = 184.89},
@@ -273,16 +273,16 @@ local teleports = {
     -- The Contract DLC Agencies
 
     -- Rockford Hills 
-    [214] = {text = "Leave Rockford Hills Agency", dest = {215,226,227}, coord = vector3(-1035.3, -431.42, 39.62), h = 119.03},
-    [215] = {text = "Enter Rockford Hills Agency", dest = {226,227,214}, coord = vector3(-1033.35, -434.92, 63.86), h = 296.08},
+    [214] = {text = "Leave Rockford Hills Agency", dest = {215, 226, 227}, coord = vector3(-1035.3, -431.42, 39.62), h = 119.03},
+    [215] = {text = "Enter Rockford Hills Agency", dest = {226, 227, 214}, coord = vector3(-1033.35, -434.92, 63.86), h = 296.08},
 
     -- Vespucci Canals
-    [216] = {text = "Leave Vespucci Agency", dest = {217,228,229}, coord = vector3(-1011.84, -734.16, 21.53), h = 37.45},
-    [217] = {text = "Enter Vespucci Agency", dest = {228,229,216}, coord = vector3(-1002.99, -774.63, 61.89), h = 1.79},
+    [216] = {text = "Leave Vespucci Agency", dest = {217, 228, 229}, coord = vector3(-1011.84, -734.16, 21.53), h = 37.45},
+    [217] = {text = "Enter Vespucci Agency", dest = {228, 229, 216}, coord = vector3(-1002.99, -774.63, 61.89), h = 1.79},
 
     -- Hawick
-    [218] = {text = "Leave Hawick Agency", dest = {219,230,231}, coord = vector3(389.92, -76.12, 68.18), h = 159.33},
-    [219] = {text = "Enter Hawick Agency", dest = {230,231,218}, coord = vector3(370.34, -56.36, 103.36), h = 253.34},
+    [218] = {text = "Leave Hawick Agency", dest = {219, 230, 231}, coord = vector3(389.92, -76.12, 68.18), h = 159.33},
+    [219] = {text = "Enter Hawick Agency", dest = {230, 231, 218}, coord = vector3(370.34, -56.36, 103.36), h = 253.34},
 
     -- Agency Garages
     -- [220]
@@ -293,32 +293,24 @@ local teleports = {
     [223] = {text = "Leave Studio", dest = {224, 225}, coord = vector3(-841.6, -229.09, 37.26), h = 3002.62},
     [224] = {text = "Enter Studio", dest = {223, 225}, coord = vector3(-1021.83, -92.39, -99.4), h = 2.11},
     [225] = {text = "Studio Rooftop", dest = {223, 224}, coord = vector3(-843.28, -236.25, 61.02), h = 44.71},
-	
-	
-	-- Agency 2nd Floor and Helipad
-	[226] = {text = "2nd Floor", dest = {227,215,214}, coord = vector3(-1033.16, -435.54, 72.46), h = 300.6}, -- Rockford Hills
-	[227] = {text = "Rooftop", dest = {226, 215,214}, coord = vector3(-1023.5, -432.78, 77.37), h = 117.41}, -- Rockford Hills
-	
-	
-	
-	[228] = {text = "2nd Floor", dest = {229,217, 216}, coord = vector3(-1002.53, -774.67, 70.49), h = 359.76}, -- Vespucci Canals
-	[229] = {text = "Rooftop", dest = {228, 217,216}, coord = vector3(-1001.03, -752.06, 76.54), h = 273.25}, -- Vespucci Canals
-	
-	[230] = {text = "2nd Floor", dest = {231,219, 218}, coord = vector3(370.15, -56.96, 111.96), h = 251.8}, -- Hawick
-	[231] = {text = "Rooftop", dest = {230, 219,218}, coord = vector3(383.05, -51.54, 122.54), h = 202.94}, -- Hawick
-	
-	
-	
-	-- Casino Penthouse
-	[232] = {text = "Leave via Rooftop", dest = {233}, coord = vector3(966.71, 65.62, 112.55), h = 117.99},
-	[233] = {text = "Enter Penthouse", dest = {232}, coord = vector3(969.82, 63.1, 112.56), h = 244.2},
-	
-	
-	
-	-- Cayo Perico Elevator
-	[234] = {text = "Basement", dest = {235}, coord = vector3(5012.48, -5748.91, 28.95), h = 142.41},
-	[235] = {text = "Office", dest = {234}, coord = vector3(5013.69, -5744.81, 15.48), h = 147.46},
 
+    -- Agency 2nd Floor and Helipad
+    [226] = {text = "2nd Floor", dest = {227, 215, 214}, coord = vector3(-1033.16, -435.54, 72.46), h = 300.6}, -- Rockford Hills
+    [227] = {text = "Rooftop", dest = {226, 215, 214}, coord = vector3(-1023.5, -432.78, 77.37), h = 117.41}, -- Rockford Hills
+
+    [228] = {text = "2nd Floor", dest = {229, 217, 216}, coord = vector3(-1002.53, -774.67, 70.49), h = 359.76}, -- Vespucci Canals
+    [229] = {text = "Rooftop", dest = {228, 217, 216}, coord = vector3(-1001.03, -752.06, 76.54), h = 273.25}, -- Vespucci Canals
+
+    [230] = {text = "2nd Floor", dest = {231, 219, 218}, coord = vector3(370.15, -56.96, 111.96), h = 251.8}, -- Hawick
+    [231] = {text = "Rooftop", dest = {230, 219, 218}, coord = vector3(383.05, -51.54, 122.54), h = 202.94}, -- Hawick
+
+    -- Casino Penthouse
+    [232] = {text = "Leave via Rooftop", dest = {233}, coord = vector3(966.71, 65.62, 112.55), h = 117.99},
+    [233] = {text = "Enter Penthouse", dest = {232}, coord = vector3(969.82, 63.1, 112.56), h = 244.2},
+
+    -- Cayo Perico Elevator
+    [234] = {text = "Basement", dest = {235}, coord = vector3(5012.48, -5748.91, 28.95), h = 142.41},
+    [235] = {text = "Office", dest = {234}, coord = vector3(5013.69, -5744.81, 15.48), h = 147.46},
 
 }
 
@@ -528,7 +520,8 @@ Citizen.CreateThread(function()
                 if (distance < 75.0) then
                     wait = 0
 
-                    DrawMarker(1, var.coord.x, var.coord.y, var.coord.z - 1.02, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.7, 0.7, 0.9, 77, 181, 255, 0.8, false, false, 2,false, nil, nil, false) -- LAST 4 SETS OF NUMBERS CONTROL THE COLOUR OF THE MARKER
+                    DrawMarker(1, var.coord.x, var.coord.y, var.coord.z - 1.02, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.7, 0.7, 0.9, 77, 181, 255, 0.8, false, false, 2,
+                        false, nil, nil, false) -- LAST 4 SETS OF NUMBERS CONTROL THE COLOUR OF THE MARKER
                     -- DrawMarker(1, var.coord.x, var.coord.y, var.coord.z - 1.02, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2.5, 2.5, 0.9, 255, 255, 255, 255, false, false, 2, false, nil, nil, false)
 
                     -- Interaction distance
