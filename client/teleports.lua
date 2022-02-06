@@ -494,7 +494,7 @@ local function DrawMenu(teleport)
 end
 
 local player, playerCoords
-local vehicle, vehicleCoords
+local vehicle, vehicleCoords, playerIsDriver
 
 Citizen.CreateThread(function()
     while (true) do
@@ -503,6 +503,7 @@ Citizen.CreateThread(function()
         vehicle = GetVehiclePedIsIn(player, false)
         if vehicle ~= 0 then
             vehicleCoords = GetEntityCoords(vehicle)
+            playerIsDriver = GetPedInVehicleSeat(vehicle, -1) == player
         end
         Wait(500)
     end
@@ -526,19 +527,11 @@ Citizen.CreateThread(function()
 
                     -- Interaction distance
                     if (distance < 2.0) then
-                        if (vehicle == 0) then
+                        if (vehicle > 0 and playerIsDriver) or (vehicle == 0) then
                             if (#var.dest > 1) then
                                 DrawMenu(i)
                             else
                                 DrawHelp(i)
-                            end
-                        else
-                            if (GetPedInVehicleSeat(vehicle, -1) == player) then
-                                if (#var.dest > 1) then
-                                    DrawMenu(i)
-                                elseif (#var.dest == 1) then
-                                    DrawHelp(i)
-                                end
                             end
                         end
                     end
