@@ -1,6 +1,6 @@
 # Online Interiors
 
-This repository is a FiveM resource created by Cloudy that adds ipl/map edits, teleport's, and blips to the world of GTA 5.
+This repository is a FiveM resource created by Cloudy that adds ipl/map edits, teleports, and blips to the world of GTA 5.
 
 This fork adds a fix for Franklin's mansion after the mpsecurity update, (courtesy of GTA5Mods member, katsutosh) as well as adds teleporters and blips for Diamond Casino & Resort, Los Santos Tuners, and The Contract (aka mpsecurity).
 
@@ -149,8 +149,31 @@ Enter a name for the MLO / location then provide a [color and sprite number](htt
 
 Open `online-interiors/client/teleports.lua` and have a look at how I have done the Casino Elevators. This should give you a rough idea of how it's done.
 
+----------------------
 
+**Q: How can I enable or restrict vehicle access to / from a location?**
+
+**A:** You can add `, veh = false` to the end of your teleport locations in the `online-interiors/client/teleports.lua`.
+
+Example:
+
+```lua
+[XX] = {text = "Helipad", dest = {XX, XX, XX, X}, coord = vector3(XX.XX, XX.XX, XX.XX), h = XXX.XX, veh = false},
+```
+
+Players can access the teleporter on foot but will be denied if they are in / on a vehicle.
+
+----------------------
 
 ## Thanks 🙏
 
-Huge thanks to [AvaN0x](https://github.com/AvaN0x) and the community over at [the FiveM forums](https://forum.cfx.re/t/the-contract-infos-build-2545/4792123) for assisting me with this. Your assistance in this matter is greatly appreciated.
+Huge thanks to 
+
+- [AvaN0x](https://github.com/AvaN0x)
+
+- The community over at [the FiveM forums](https://forum.cfx.re/t/the-contract-infos-build-2545/4792123)
+
+- [Cloudy](https://github.com/cloudy-develop)
+
+- [Bob74](https://github.com/Bob74)
+
