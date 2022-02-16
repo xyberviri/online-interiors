@@ -311,6 +311,10 @@ local teleports = {
     -- Cayo Perico Elevator
     [234] = {text = "Basement", dest = {235}, coord = vector3(5012.48, -5748.91, 28.95), h = 142.41, veh = false},
     [235] = {text = "Office", dest = {234}, coord = vector3(5013.69, -5744.81, 15.48), h = 147.46, veh = false},
+	
+    -- Therapist Office
+    [236] = {text = "Enter Therapist Office", dest = {237}, coord = vector3(-1904.17, -568.86, 19.1), h = 227.34, veh = false},
+    [237] = {text = "Leave Therapist Office", dest = {236}, coord = vector3(-1898.53, -572.49, 11.85), h = 187.6, veh = false},
 
 }
 
