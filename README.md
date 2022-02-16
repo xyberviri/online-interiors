@@ -167,7 +167,7 @@ Players can access the teleporter on foot but will be denied if they are in / on
 
 ## Thanks 🙏
 
-Huge thanks to 
+**Huge thanks to:**
 
 - [AvaN0x](https://github.com/AvaN0x)
 
@@ -176,4 +176,10 @@ Huge thanks to
 - [Cloudy](https://github.com/cloudy-develop)
 
 - [Bob74](https://github.com/Bob74)
+
+- [katsutosh](https://www.gta5-mods.com/users/katsutosh)
+
+- [LBCustoms](https://forum.cfx.re/u/lbcustoms/summary)
+
+- [Nowimps8](https://github.com/Nowimps8)
 
