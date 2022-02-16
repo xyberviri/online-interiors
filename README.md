@@ -58,7 +58,13 @@ I admire Cloudy and Bob's efforts and by no means do I take any credit. I have s
 
 These fixes and additions include:
 
-- Added  additional chairs inside Franklin and MP offices
+- Fixed Franklin's couch at his mansion, courtesy of [katsutosh](https://www.gta5-mods.com/maps/fix-franklin-interior-after-mpsecurity-update)
+
+- Fixed collisions and windows at Therapist Office, courtesty of [LBCustoms](https://forum.cfx.re/u/lbcustoms/summary)
+
+- Comedy Club Collision fix, courtesy of [Nowimps8](https://github.com/Nowimps8)
+
+- Added  additional chairs inside Franklin and MP Agency Offices
 
 - Removed obstructing object from a TV prop on 2nd floor of Agencies, allowing players visible access when rendering videos to the screen via [pmms by Kibook](https://github.com/kibook/pmms) or other scripts.
 
@@ -79,22 +85,6 @@ These fixes and additions include:
 - Added Lucky Wheel prop to Casino
 
 - Configured Casino Vault entitysets and removed doors leading to it
-
-----------------------
-
-# Comedy Club 🎭
-
-Collision fix by [Nowimps8](https://github.com/Nowimps8) can be added to the stream folder I have already provided. 
-
-Grab it from here:
-
- [Comedy Club Collision Fix](https://github.com/TayMcKenzieNZ/nw_comedyClub)
-
-- Grab the `v_comedy.ybn` file
-
-- Create a new folder inside online-interiors `stream` folder and name it `Comedy Club Collisions`. Place `v_comedy.ybn` inside this folder
-
-You're all set 😃
 
 ----------------------
 
