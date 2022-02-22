@@ -18,6 +18,14 @@ Citizen.CreateThread(function()
     -- =================================================== --
     -- --------------------------------------------------- --
     -- =================================================== --
+	
+	
+	
+	-- Agency Banners and Plaques Outside
+    RequestIpl("sf_plaque_bh1_05")
+    RequestIpl("sf_plaque_hw1_08")
+    RequestIpl("sf_plaque_kt1_05")
+    RequestIpl("sf_plaque_kt1_08")
 
     -- -1020.2860 -427.30180 62.861130
     -- ROCKFORD HILL AGENCY
@@ -25,8 +33,9 @@ Citizen.CreateThread(function()
     EnableExteriorCullModelThisFrame("bh1_05_build1")
     EnableExteriorCullModelThisFrame("bh1_05_em")
     local interiorid = GetInteriorAtCoords(-1020.2860, -427.30180, 62.861130)
+	
     -- #region entity sets
-    -- Decorations ans statues inside the office
+    -- Decorations and statues inside the office
     ToggleEntitySet(interiorid, "Entity_Set_Art_1", false)
     ToggleEntitySet(interiorid, "Entity_Set_Art_2", true)
     ToggleEntitySet(interiorid, "Entity_Set_Art_3", false)
@@ -574,7 +583,7 @@ Citizen.CreateThread(function()
     -- --------------------------------------------------- --
     -- =================================================== --
 
-    -- Franklin house 13.01, 544.59, 175.95
+    -- Franklin's Mansion  13.01, 544.59, 175.95
     RequestIpl("sf_franklin")
 
     -- Weed warehouse 2920.0 4470.0 -100.0
@@ -587,13 +596,5 @@ Citizen.CreateThread(function()
 
     -- RequestIpl("sf_mansionroof") -- tiny bits of dirt on the roof of the mansion
 
-    -- Laggy, some textures are missing
-    -- -3262.1250 -1586.9720 5.43373900
-    -- RequestIpl("sf_yacht_01")
-    -- RequestIpl("sf_yacht_01_int")
-
-    -- -850.55520 -4818.5890 5.43373900
-    -- RequestIpl("sf_yacht_02")
-    -- RequestIpl("sf_yacht_02_int")
 end)
 
