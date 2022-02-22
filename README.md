@@ -130,7 +130,7 @@ There does not appear to be a basement for this MLO, however it will at least ad
 **A:** Check the `online-interiors/client/maps/` as I have configured and provided IPLs and entitysets for some locations, which could be clashing with your copy of bob74_IPL. 
 
 You can simply set it up how you prefer, or comment it out of the fxmanifest.
-A
+
 ----------------------
 
 **Q: I have custom MLOs in my server, can I use this resource to add map blips for them?**
