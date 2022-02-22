@@ -228,6 +228,9 @@ local blips = {
 	
     -- Therapist Office 
     {text = "Therapist Office", color = 0, sprite = 205, coord = vector3(-1902.15, -564.28, 11.82)},
+	
+    -- Solomon's Office 
+    {text = "Solomon's Office", color = 70, sprite = 475, coord = vector3(-1011.41, -479.98, 39.97)},
 }
 
 -- Don't edit below this line.
