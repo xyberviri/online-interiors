@@ -154,19 +154,27 @@ local teleports = {
     [118] = {text = "Paleto Bay Clubhouse Garage", dest = {119}, coord = vector3(998.82, -3164.34, -38.91), h = 266.85},
     [119] = {text = "Exit Clubhouse", dest = {118}, coord = vector3(-33.59, 6422.45, 31.43), h = 221.21},
 
-    -- Businesses
+    -- Cocaine Lock Up
     [120] = {text = "Cocaine Lockup", dest = {121}, coord = vector3(1088.66, -3187.66, -38.99), h = 177.66, veh = false},
     [121] = {text = "Exit Cocaine Lockup", dest = {120}, coord = vector3(51.92, 6486.31, 31.43), h = 318.31, veh = false},
     [122] = {text = "Cocaine Lockup", dest = {123}, coord = vector3(1103.32, -3195.89, -38.99), h = 89.39, veh = false},
     [123] = {text = "Exit Cocaine Lockup", dest = {122}, coord = vector3(56.73, 6471.21, 31.43), h = 228.98, veh = false},
+	
+	-- Counterfeit Cash Factory
     [124] = {text = "Counterfeit Cash Factory", dest = {125}, coord = vector3(1138.21, -3198.80, -39.67), h = 357.07, veh = false},
     [125] = {text = "Exit Counterfeit Cash Factory", dest = {124}, coord = vector3(-1170.99, -1380.93, 4.96), h = 30.09, veh = false},
     [126] = {text = "Counterfeit Cash Factory", dest = {127}, coord = vector3(1118.72, -3193.27, -40.40), h = 177.34, veh = false},
     [127] = {text = "Exit Counterfeit Cash Factory", dest = {126}, coord = vector3(-1168.95, -1388.90, 4.92), h = 131.87, veh = false},
+	
+	-- Document Forgery Office
     [128] = {text = "Document Forgery Office", dest = {129}, coord = vector3(1173.50, -3196.66, -39.01), h = 88.37, veh = false},
     [129] = {text = "Exit Document Forgery Office", dest = {128}, coord = vector3(1643.77, 4857.89, 42.01), h = 96.51, veh = false},
+	
+	-- Meth Lab
     [130] = {text = "Meth Lab", dest = {131}, coord = vector3(997.49, -3200.70, -36.40), h = 274.34, veh = false},
     [131] = {text = "Exit Meth Lab", dest = {130}, coord = vector3(1180.88, -3113.84, 6.03), h = 99.59, veh = false},
+	
+	-- Weed Farm
     [132] = {text = "Weed Farm", dest = {133}, coord = vector3(1066.01, -3183.38, -39.16), h = 93.01, veh = false},
     [133] = {text = "Exit Weed Farm", dest = {132}, coord = vector3(102.07, 175.09, 104.59), h = 165.63, veh = false},
 
@@ -273,7 +281,7 @@ local teleports = {
     -- The Contract DLC Agencies
 
     -- Rockford Hills 
-    [214] = {text = "Leave Rockford Hills Agency", dest = {215, 226, 227}, coord = vector3(-1035.3, -431.42, 39.62), h = 119.03, veh = false},
+    [214] = {text = "Leave Rockford Hills Agency", dest = {215, 226, 227}, coord = vector3(-1016.51, -413.24, 39.62), h = 22.26, veh = false},
     [215] = {text = "Enter Rockford Hills Agency", dest = {226, 227, 214}, coord = vector3(-1033.35, -434.92, 63.86), h = 296.08, veh = false},
 
     -- Vespucci Canals
@@ -313,8 +321,24 @@ local teleports = {
     [235] = {text = "Office", dest = {234}, coord = vector3(5013.69, -5744.81, 15.48), h = 147.46, veh = false},
 	
     -- Therapist Office
-    [236] = {text = "Enter Therapist Office", dest = {237}, coord = vector3(-1904.17, -568.86, 19.1), h = 227.34, veh = false},
-    [237] = {text = "Leave Therapist Office", dest = {236}, coord = vector3(-1898.53, -572.49, 11.85), h = 187.6, veh = false},
+    [236] = {text = "Enter Therapist Office", dest = {238,237}, coord = vector3(-1904.17, -568.86, 19.1), h = 227.34, veh = false},
+    [237] = {text = "Leave Therapist Office", dest = {238, 236}, coord = vector3(-1898.53, -572.49, 11.85), h = 187.6, veh = false},
+    [238] = {text = "Rooftop", dest = {236,237}, coord = vector3 (-1908.39, -570.94, 22.97), h = 137.9, veh = false},
+
+
+    -- Humane Labs Elevator
+    [239] = {text = "Level -3", dest = {240}, coord = vector3(3540.65, 3675.46, 20.99), h = 171.02, veh = false},
+    [240] = {text = "Level -1", dest = {239}, coord = vector3(3540.65, 3675.46, 28.12), h = 166.91, veh = false},
+
+
+    -- FIB Elevator, comment out if you have a custom MLO
+    [241] = {text = "Level 1", dest = {242}, coord = vector3(136.13, -761.63, 45.75), h = 168.15, veh = false},
+    [242] = {text = "Level 49", dest = {241}, coord = vector3(136.14, -761.64, 242.15), h = 155.18, veh = false},
+	
+	
+    -- Solomon Office
+    [243] = {text = "Leave Solomon Office", dest = {244}, coord = vector3(-1003.16, -477.9, 50.03), h = 98.47, veh = false},
+    [244] = {text = "Enter Solomon", dest = {243}, coord = vector3(-1011.41, -479.98, 39.97), h = 120.88, veh = false},
 
 }
 
