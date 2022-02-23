@@ -2,7 +2,7 @@ local blips = {
     -- Story Mode Houses
     {text = "Michael's House", color = 69, sprite = 40, coord = vector3(-817.93, 177.68, 72.22)},
     {text = "Franklin's House", color = 69, sprite = 40, coord = vector3(8.32, 539.75, 176.03)}, -- Mansion
-    {text = "Franklin's House", color = 69, sprite = 40, coord = vector3(14.23, -1441.7, 31.1)}, -- Yee Yee Ass Haircut, Aunt Denise
+    {text = "Franklin's House", color = 69, sprite = 40, coord = vector3(-14.19, -1442.09, 31.1)}, -- Yee Yee Ass Haircut, Aunt Denise
 	{text = "Trevor's Trailer", color = 40, sprite = 40, coord = vector3(1981.51, 3819.35, 32.25)},
 
     {text = "Lester's House", color = 1, sprite = 40, coord = vector3(1274.65, -1720.83, 54.68)},
