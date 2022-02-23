@@ -23,6 +23,8 @@ Alternatively, you can download the **zip** folder from above and put the files 
 
 2. Download the latest version of "bob74_ipl" from "https://github.com/Bob74/bob74_ipl/releases" and place the folder in the "resources" folder. 
 
+If any of the interiors clash or flicker, comment them out of bob74_ipl, as I have already configured them.
+
 **(MUST BE NAMED "bob74_ipl" AND BE DIRECTLY IN RESOURCES FOLDER)**
 
 3. Download the latest recommended artifacts [for Windows](https://runtime.fivem.net/artifacts/fivem/build_server_windows/master/) **or** [for Linux](https://runtime.fivem.net/artifacts/fivem/build_proot_linux/master/)
@@ -72,7 +74,7 @@ These fixes and additions include:
 
 - Replaced small TV in studio smoke room (with logos covering screen) with a better tv prop, allowing players visible access when rendering videos to the screen via hypnonema or other scripts
 
-- fixed Tuners exterior garage door from opening 
+- Fixed Tuners exterior garage door from opening 
 
 - Removed obstructing collisions from Tuners Car Meet interior
 
@@ -85,6 +87,9 @@ These fixes and additions include:
 - Added Lucky Wheel prop to Casino
 
 - Configured Casino Vault entitysets and removed doors leading to it
+
+
+- Added breakable glass on FIB rooftop
 
 ----------------------
 
