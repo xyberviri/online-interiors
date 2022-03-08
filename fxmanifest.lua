@@ -2,7 +2,7 @@ fx_version "cerulean"
 game "gta5"
 
 author "Cloudy"
-version "2.1"
+version "2.2"
 description "A FiveM resource adding ipl/map edits, teleport's, and blips to the map for FiveM."
 repository "https://github.com/TayMcKenzieNZ/online-interiors"
 
@@ -26,6 +26,7 @@ client_scripts {
     "client/maps/finance_felony/offices/maze_bank/*.lua",
     "client/maps/finance_felony/offices/maze_bank_west/*.lua",
     "client/maps/finance_felony/organization/*.lua",
+	"client/maps/fib_fountain/*lua",
     "client/maps/gunrunning/bunker/*.lua",
     "client/maps/gunrunning/yacht/*.lua",
     "client/maps/heists/aircraft_carrier/*.lua",
