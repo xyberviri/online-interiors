@@ -131,6 +131,15 @@ local blips = {
     {text = "Police Station", color = 57, sprite = 60, coord = vector3(434.15, -981.85, 30.71)},
     -- Sandy Shores PD
     {text = "Police Station", color = 57, sprite = 60, coord = vector3(1855.53, 3683.04, 34.27)},
+	
+    -- Fire Stations --
+    {text = "Fire Station", color = 1, sprite = 635, coord = vector3(1200.46, -1457.68, 34.88)},
+    {text = "Fire Station", color = 1, sprite = 635, coord = vector3(216.61, -1637.6, 29.49)},
+	
+
+    -- Hospitals --
+    {text = "Hospital", color = 49, sprite = 61, coord = vector3(291.7, -586.94, 43.2)},
+    {text = "Hospital", color = 49, sprite = 61, coord = vector3(266.69, -1432.62, 29.33)},
 
     -- Humane Labs
     {text = "Humane Labs", color = 76, sprite = 80, coord = vector3(3545.68, 3776.25, 29.36)},
@@ -141,10 +150,6 @@ local blips = {
 
     -- Vanilla Unicorn Strip Club 
     {text = "Strip Club", color = 48, sprite = 121, coord = vector3(133.08, -1305.86, 29.16)},
-
-    -- Fire Stations --
-    {text = "Fire Station", color = 1, sprite = 635, coord = vector3(1200.46, -1457.68, 34.88)},
-    {text = "Fire Station", color = 1, sprite = 635, coord = vector3(216.61, -1637.6, 29.49)},
 
     -- Legion Square --
     {text = "Legion Square", color = 30, sprite = 77, coord = vector3(189.13, -967.22, 29.82)},
