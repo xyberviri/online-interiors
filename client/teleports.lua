@@ -102,7 +102,7 @@ local teleports = {
 
     -- 0552 Roy Lowenstein Boulevard Garage (Medium)
     [78] = {text = "Mid-End Garage", dest = {79}, coord = vector3(198.39, -1002.87, -99.00), h = 357.40},
-    [79] = {text = "Exit Mid-End Garage", dest = {}, coord = vector3(501.13, -1496.61, 27.70), h = 178.86},
+    [79] = {text = "Exit Mid-End Garage", dest = {}, coord = vector3(501.13, -1496.61, 28.70), h = 178.86},
     [80] = {text = "Mid-End Garage", dest = {78}, coord = vector3(507.87, -1496.00, 29.29), h = 0.23},
 
     -- 1200 Route 68 Garage (Low-End)
