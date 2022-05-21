@@ -6,6 +6,10 @@ local blips = {
 	{text = "Trevor's Trailer", color = 40, sprite = 40, coord = vector3(1981.51, 3819.35, 32.25)},
 
     {text = "Lester's House", color = 1, sprite = 40, coord = vector3(1274.65, -1720.83, 54.68)},
+	
+	
+	-- Lester's Factory 
+    {text = "Lester's Factory", color = 1, sprite = 475, coord = vector3(717.93, -976.46, 24.91)},
 
     -- Apartments
     {text = "Apartment", color = 3, sprite = 40, coord = vector3(-911.91, -451.08, 39.61)},
