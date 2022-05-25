@@ -9,7 +9,7 @@ local blips = {
 	
 	
 	-- Lester's Factory 
-    {text = "Lester's Factory", color = 1, sprite = 475, coord = vector3(717.93, -976.46, 24.91)},
+    {text = "Lester's Factory", color = 3, sprite = 475, coord = vector3(717.93, -976.46, 24.91)},
 
     -- Apartments
     {text = "Apartment", color = 3, sprite = 40, coord = vector3(-911.91, -451.08, 39.61)},
@@ -240,6 +240,9 @@ local blips = {
 	
     -- Solomon's Office 
     {text = "Solomon's Office", color = 70, sprite = 475, coord = vector3(-1011.41, -479.98, 39.97)},
+	
+    -- Torture Room 
+    {text = "Torture Room", color = 1, sprite = 458, coord = vector3(960.57, -2185.24, 30.5)},
 }
 
 -- Don't edit below this line.
