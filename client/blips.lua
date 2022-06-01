@@ -7,7 +7,6 @@ local blips = {
 
     {text = "Lester's House", color = 1, sprite = 40, coord = vector3(1274.65, -1720.83, 54.68)},
 	
-	
 	-- Lester's Factory 
     {text = "Lester's Factory", color = 3, sprite = 475, coord = vector3(717.93, -976.46, 24.91)},
 
@@ -80,7 +79,7 @@ local blips = {
     {text = "Nightclub", color = 55, sprite = 614, coord = vector3(346.02, -977.81, 29.37)},
 
     -- Aircraft Carrier
-    {text = "Aircraft Carrier", color = 0, sprite = 16, coord = vector3(3082.31, -4717.11, 15.26)},
+--    {text = "Aircraft Carrier", color = 0, sprite = 16, coord = vector3(3082.31, -4717.11, 15.26)},
 
     -- Yacht
     {text = "Yacht", color = 3, sprite = 455, coord = vector3(-2043.97, -1031.58, 11.98)},
@@ -224,6 +223,8 @@ local blips = {
 
     -- Tuner Car Meet 
     {text = "Tuner Car Meet", color = 2, sprite = 777, coord = vector3(776.35, -1867.26, 52.93)},
+	
+	
 
     -- The Contract DLC Teleports. Requires Enforcing Of Gamebuild 2545 --
 
@@ -235,6 +236,9 @@ local blips = {
     -- Record A Studios
     {text = "Record A Studios", color = 0, sprite = 819, coord = vector3(-841.51, -229.07, 37.27)},
 	
+	
+	
+	
     -- Therapist Office 
     {text = "Therapist Office", color = 0, sprite = 205, coord = vector3(-1902.15, -564.28, 11.82)},
 	
@@ -243,6 +247,12 @@ local blips = {
 	
     -- Torture Room 
     {text = "Torture Room", color = 1, sprite = 458, coord = vector3(960.57, -2185.24, 30.5)},
+	
+	
+	-- Banks 
+    {text = "Bank", color = 25, sprite = 207, coord = vector3(-115.09, 6458.77, 31.47)},
+	{text = "Bank", color = 25, sprite = 207, coord = vector3(229.91, 214.37, 105.56)},
+
 }
 
 -- Don't edit below this line.
