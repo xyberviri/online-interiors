@@ -339,11 +339,15 @@ local teleports = {
     -- Solomon Office
     [243] = {text = "Leave Solomon Office", dest = {244}, coord = vector3(-1003.16, -477.9, 50.03), h = 98.47, veh = false},
     [244] = {text = "Enter Solomon", dest = {243}, coord = vector3(-1011.41, -479.98, 39.97), h = 120.88, veh = false},
-
+	
 	
 	
 	-- Casino Helipad
 	[245] = {text = "Helipad", dest = {197, 198, 199, 200, 201, 202, 203}, coord = vector3(971.89, 51.91, 120.24), h = 328.03, veh = false},
+	
+	-- Tuners DLC Rooftop
+	[246] = {text = "Rooftop", dest = {247}, coord = vector3(743.43, -1797.16, 29.29), h = 82.66, veh = false},
+	[247] = {text = "Rooftop", dest = {246}, coord = vector3(748.87, -1792.96, 49.31), h = 355.72, veh = false},
 	
 
 }
