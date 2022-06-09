@@ -86,7 +86,7 @@ local blips = {
     {text = "Yacht", color = 3, sprite = 455, coord = vector3(-1363.72, 6734.10, 2.44)},
 
     -- Arcade. Requires Enforcing Of Gamebuild. There are other locations, however I picked this one  --
-   -- {text = "Arcade", color = 15, sprite = 647, coord = vector3(4.10, 220.42, 107.5)},
+    {text = "Arcade", color = 15, sprite = 647, coord = vector3(758.76, -816.06, 26.29)},
 
     -- Split Sides West Comedy Store
     {text = "Split Sides West", color = 0, sprite = 102, coord = vector3(-430.17, 261.5, 82.32)},
@@ -252,6 +252,9 @@ local blips = {
 	-- Banks 
     {text = "Bank", color = 25, sprite = 207, coord = vector3(-115.09, 6458.77, 31.47)},
 	{text = "Bank", color = 25, sprite = 207, coord = vector3(229.91, 214.37, 105.56)},
+	
+	-- Union Depository 
+    {text = "Union Depository", color = 28, sprite = 50, coord = vector3(-88.81, -677.03, 35.23)},
 
 }
 
