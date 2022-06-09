@@ -213,8 +213,8 @@ local teleports = {
     [155] = {text = "Del Perro Heights Garage", dest = {54, 55, 56, 57}, coord = vector3(-1456.37, -514.44, 31.58), h = 211.62, veh = false},
 
     -- Arcade
-    --  [158] = {text = "Exit Arcade", coord = vector3(2737.96, -374.11, -48.0), h = 174.4, dest = {159}},
-    --  [159] = {text = "Enter Arcade", coord = vector3(4.10, 220.42, 107.5), h = 250.43, dest = {158}},
+      [158] = {text = "Exit Arcade", coord = vector3(2737.96, -374.12, -47.99), h = 174.4, dest = {159}},
+      [159] = {text = "Enter Arcade", coord = vector3(758.76, -816.06, 26.29), h = 278.34, dest = {158}},
 
     -- Split Sides Comedy Store
     [160] = {text = "Exit Split Sides Comedy Store", dest = {161}, coord = vector3(-430.06, 261.72, 83.0), h = 170.49, veh = false},
@@ -252,8 +252,8 @@ local teleports = {
     -- Casino elevators
     [197] = {text = "Rooftop", coord = vector3(964.83, 58.48, 112.37), h = 64.13, dest = {245, 198, 199, 200, 202, 203, 201}, veh = false},
     [198] = {text = "Hotel", coord = vector3(2518.76, -262.10, -39.13), h = 4.95, dest = {245, 197, 199, 200, 202, 203, 201}, veh = false},
-    [199] = {text = "Offices", coord = vector3(2517.5, -260.94, -55.12), h = 9.16, dest = {245, 197, 198, 200, 201, 202, 203}, veh = false},
-    [200] = {text = "Ground Floor", coord = vector3(1085.37, 214.37, -49.2), h = 314.58, dest = {245, 197, 198, 199, 202, 203, 201}, veh = false},
+    [199] = {text = "Offices", coord = vector3(2517.65, -263.4, -55.12), h = 10.29, dest = {245, 197, 198, 200, 201, 202, 203}, veh = false},
+    [200] = {text = "Ground Floor", coord = vector3(2463.24, -281.05, -58.48), h = 315.36, dest = {245, 197, 198, 199, 202, 203, 201}, veh = false},
     [201] = {text = "Casino Main Entrance", coord = vector3(935.8, 46.88, 81.1), h = 133.58, dest = {245, 197, 198, 199, 200, 202, 203}, veh = false},
     [202] = {text = "Loading Bay", coord = vector3(2518.55, -279.1, -64.72), h = 268.34, dest = {245, 197, 198, 199, 200, 203, 201}, veh = false},
     [203] = {text = "Vault", coord = vector3(2519.03, -279.21, -70.71), h = 271.9, dest = {245, 197, 198, 199, 200, 202, 201}, veh = false},
@@ -349,6 +349,15 @@ local teleports = {
 	[246] = {text = "Rooftop", dest = {247}, coord = vector3(743.43, -1797.16, 29.29), h = 82.66, veh = false},
 	[247] = {text = "Rooftop", dest = {246}, coord = vector3(748.87, -1792.96, 49.31), h = 355.72, veh = false},
 	
+	
+	-- Union Depository 
+	[248] = {text = "Union Depository", dest = {249}, coord = vector3(-0.05, -705.85, 16.13), h =  336.49, veh = false},
+	[249] = {text = "Union Depository", dest = {248}, coord = vector3(10.5, -671.31, 33.45), h = 7.11, veh = false},
+	
+	
+	-- Arcade Garage Vehicle Teleports 
+	[250] = {text = "Exit Garage", dest = {251}, coord = vector3(2680.64, -361.38, -55.19), h =  267.19, veh = true},
+	[251] = {text = "Enter Garage", dest = {250}, coord = vector3(723.93, -822.25, 24.75), h = 181.28, veh = true},
 
 }
 
