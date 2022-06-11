@@ -115,13 +115,9 @@ You're all set 😃
 
 # Arcade 🕹️
 
-Due to the original arcade location being difficult to customize and codewalker not loading it, I was unable to configure it and get it working, therefore I have not added any teleporters or blips. 
+Arcade IPL, entitysets and map blip has been provided and configured
 
-You can however find arcade related MLOs that won't clash with this resource, for example:
-
-[MLO Arcade Bar Interior by kiiya](https://www.gta5-mods.com/maps/arcade-bar-interior-mlo-fivem-sp).
-
-There does not appear to be a basement for this MLO, however it will at least add the arcade to your server.
+----------------------
 
 # FAQ 
 
