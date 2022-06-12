@@ -55,7 +55,7 @@ Citizen.CreateThread(function()
     local interiorid = GetInteriorAtCoords(2488.348, -267.3637, -71.64563)
     ToggleEntitySet(interiorid, "set_vault_door", true) -- Open vault
     ToggleEntitySet(interiorid, "set_spawn_group1", true) -- small locker on the sides and arts
-    -- ToggleEntitySet(interiorid, "set_spawn_group2", false) -- small locker on the sides and arts
+    ToggleEntitySet(interiorid, "set_spawn_group2", true) -- small locker on the sides and arts
     ToggleEntitySet(interiorid, "set_vault_dressing", true) -- all the stuff that spawns on the floor
     -- ToggleEntitySet(interiorid, "set_vault_cash_01", true)
     ToggleEntitySet(interiorid, "set_vault_cash_02", true)
@@ -187,7 +187,7 @@ Citizen.CreateThread(function()
     -- ToggleEntitySet(interiorid, "vw_prop_vw_safedoor_office2a_r", true)
 
     -- ToggleEntitySet(interiorid, "prop_box_guncase_01a", true)
-    -- ToggleEntitySet(interiorid, "prop_box_guncase_02a", true)
+     ToggleEntitySet(interiorid, "prop_box_guncase_02a", true)
 
     -- ToggleEntitySet(interiorid, "vw_vwint02_pent_spa_water_01", true)
     -- ToggleEntitySet(interiorid, "vw_vwint02_pent_spa_water_02", true)

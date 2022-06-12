@@ -358,6 +358,16 @@ local teleports = {
 	-- Arcade Garage Vehicle Teleports 
 	[250] = {text = "Exit Garage", dest = {251}, coord = vector3(2680.64, -361.38, -55.19), h =  267.19, veh = true},
 	[251] = {text = "Enter Garage", dest = {250}, coord = vector3(723.93, -822.25, 24.75), h = 181.28, veh = true},
+	
+	
+	-- Casino Tunnel Hole 
+	[252] = {text = "Exit Hole", dest = {253}, coord = vector3(2480.05, -294.69, -70.64), h =  232.25, veh = false},
+	[253] = {text = "Enter Hole", dest = {252}, coord = vector3(2480.4, -288.36, -70.7), h = 237.6, veh = false},
+	
+	
+	-- Casino Tunnel 
+	[254] = {text = "Exit Tunnel", dest = {255}, coord = vector3(2517.14, -327.1, -70.65), h =  85.02, veh = false},
+	[255] = {text = "Enter Tunnel", dest = {254}, coord = vector3(873.29, -228.46, 18.33), h = 265.27, veh = false},
 
 }
 
