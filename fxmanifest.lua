@@ -42,6 +42,7 @@ client_scripts {
 
 
 	"client/maps/casino/*.lua",  -- DLC Tuners (Requires forced gamebuild 2060 or higher)
+		"client/maps/arcade/*.lua",  --DLC Casino Heist (Requires forced gamebuild 2189 or higher)
 	"client/maps/mptuners/*.lua",  -- DLC Tuners (Requires forced gamebuild 2189 or higher)
 	"client/maps/mpsecurity/*.lua",  --DLC Contracts (Requires forced gamebuild 2545 or higher)
 
