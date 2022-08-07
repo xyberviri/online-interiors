@@ -1,14 +1,21 @@
 local blips = {
     -- Story Mode Houses
-    {text = "Michael's House", color = 69, sprite = 40, coord = vector3(-817.93, 177.68, 72.22)},
+    {text = "Michael's House", color = 2, sprite = 40, coord = vector3(-817.93, 177.68, 72.22)},
     {text = "Franklin's House", color = 69, sprite = 40, coord = vector3(8.32, 539.75, 176.03)}, -- Mansion
     {text = "Franklin's House", color = 69, sprite = 40, coord = vector3(-14.19, -1442.09, 31.1)}, -- Yee Yee Ass Haircut, Aunt Denise
 	{text = "Trevor's Trailer", color = 40, sprite = 40, coord = vector3(1981.51, 3819.35, 32.25)},
-	{text = "Floyd's House", color = 69, sprite = 40, coord = vector3(-1157.31, -1516.72, 4.36)},
+	{text = "Floyd's House", color = 27, sprite = 40, coord = vector3(-1157.31, -1516.72, 4.36)},
 	{text = "Lester's House", color = 1, sprite = 40, coord = vector3(1274.65, -1720.83, 54.68)},
 	
 	-- Lester's Factory 
     {text = "Lester's Factory", color = 3, sprite = 475, coord = vector3(717.93, -976.46, 24.91)},
+	
+	
+	-- Simeon's Dealership 
+    {text = "Simeon's Dealership", color = 0, sprite = 293, coord = vector3(-68.22, -1111.15, 25.91)},
+	
+	-- O'Niel Farm 
+    {text = "Simeon's Dealership", color = 69, sprite = 270, coord = vector3(2453.57, 4955.34, 44.96)},
 
     -- Apartments
     {text = "Apartment", color = 3, sprite = 40, coord = vector3(-911.91, -451.08, 39.61)},
@@ -64,6 +71,7 @@ local blips = {
 
     -- Vehicle Warehouse
     {text = "Vehicle Warehouse", color = 0, sprite = 524, coord = vector3(-668.50, -2385.95, 13.93)},
+	{text = "Vehicle Warehouse", color = 0, sprite = 524, coord = vector3(266.64, -1159.73, 29.25)}, -- The Criminal Enterprises 
 
     -- Crate Warehouses
     {text = "Crate Warehouse", color = 0, sprite = 473, coord = vector3(926.66, -1560.23, 30.74)},
@@ -255,6 +263,10 @@ local blips = {
 	
 	-- Union Depository 
     {text = "Union Depository", color = 28, sprite = 50, coord = vector3(-88.81, -677.03, 35.23)},
+	
+	
+	-- Farmhouse Interior - The Criminal Enterprises  
+    {text = "Farmhouse Interior", color = 0, sprite = 84, coord = vector3(1930.07, 4634.88, 40.47)},
 
 }
 

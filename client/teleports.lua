@@ -368,6 +368,20 @@ local teleports = {
 	-- Casino Tunnel 
 	[254] = {text = "Exit Tunnel", dest = {255}, coord = vector3(2517.14, -327.1, -70.65), h =  85.02, veh = false},
 	[255] = {text = "Enter Tunnel", dest = {254}, coord = vector3(873.29, -228.46, 18.33), h = 265.27, veh = false},
+	
+	
+	-- The Criminal Enterprises Interiors --
+	
+	-- Vehicle Warehouse 
+	[256] = {text = "Exit Vehicle Warehouse", dest = {257}, coord = vector3(265.71, -1159.67, 29.25), h = 86.17, veh = true}, -- Vehicle Exit
+	[257] = {text = "Enter Vehicle Warehouse", dest = {256}, coord = vector3(813.92, -3001.28, -69.0), h = 84.84, veh = true}, -- Vehicle Entry
+	
+	[258] = {text = "Exit Vehicle Warehouse", dest = {259}, coord = vector3(286.97, -1148.59, 29.29), h = 354.52, veh = false}, -- On Foot Exit
+	[259] = {text = "Enter Vehicle Warehouse", dest = {258}, coord = vector3(782.39, -2997.9, -69.0), h = 269.64, veh = false}, -- On Foot Entry
+	
+	
+	[260] = {text = "Exit Farmhouse", dest = {261}, coord = vector3(1929.95, 4634.96, 40.47), h = 359.21, veh = false}, -- On Foot Exit
+	[261] = {text = "Enter Farmhouse", dest = {260}, coord = vector3(844.68, -3004.97, -44.4), h = 91.45, veh = false}, -- On Foot Entry
 
 }
 

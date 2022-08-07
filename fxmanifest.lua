@@ -29,7 +29,6 @@ client_scripts {
 	"client/maps/fib_fountain/*lua",
     "client/maps/gunrunning/bunker/*.lua",
     "client/maps/gunrunning/yacht/*.lua",
-    "client/maps/heists/aircraft_carrier/*.lua",
     "client/maps/heists/yacht/*.lua",
     "client/maps/import_export/garages/arcadius_business_centre/*.lua",
     "client/maps/import_export/garages/lom_bank/*.lua",
