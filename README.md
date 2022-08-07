@@ -21,15 +21,14 @@ This fork adds a fix for Franklin's mansion after the mpsecurity update, (courte
 
 Alternatively, you can download the **zip** folder from above and put the files in your **"resources"** folder.
 
-2. Download the latest version of "bob74_ipl" from "https://github.com/Bob74/bob74_ipl/releases" and place the folder in the "resources" folder. 
+2. Download TayMckenzieNZ's latest fork of "bob74_ipl" from "https://github.com/TayMcKenzieNZ/bob74_ipl" and place the folder in the "resources" folder. 
 
-If any of the interiors clash or flicker, comment them out of bob74_ipl, as I have already configured them.
 
 **(MUST BE NAMED "bob74_ipl" AND BE DIRECTLY IN RESOURCES FOLDER)**
 
 3. Download the latest recommended artifacts [for Windows](https://runtime.fivem.net/artifacts/fivem/build_server_windows/master/) **or** [for Linux](https://runtime.fivem.net/artifacts/fivem/build_proot_linux/master/)
 
-4. Enforce the Gamebuild to 2545 [How To Enforce Gamebuild [Tutorial]](https://forum.cfx.re/t/tutorial-forcing-gamebuild-to-casino-cayo-perico-or-tuners-update/4784977)
+4. Enforce the Gamebuild to 2699 [How To Enforce Gamebuild [Tutorial]](https://forum.cfx.re/t/tutorial-forcing-gamebuild-to-casino-cayo-perico-or-tuners-update/4784977)
 
 5. start  "bob74_ipl" and "online_interiors" in your "server.cfg". **("bob74_ipl" MUST BE STARTED BEFORE "online_interiors")**
 
