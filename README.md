@@ -31,7 +31,7 @@ If any of the interiors clash or flicker, comment them out of bob74_ipl, as I ha
 
 4. Enforce the Gamebuild to 2545 [How To Enforce Gamebuild [Tutorial]](https://forum.cfx.re/t/tutorial-forcing-gamebuild-to-casino-cayo-perico-or-tuners-update/4784977)
 
-5. Ensure "bob74_ipl" and "online_interiors" in your "server.cfg". **("bob74_ipl" MUST BE STARTED BEFORE "online_interiors")**
+5. start  "bob74_ipl" and "online_interiors" in your "server.cfg". **("bob74_ipl" MUST BE STARTED BEFORE "online_interiors")**
 
 7. Enjoy your interiors.
 
@@ -40,8 +40,8 @@ If any of the interiors clash or flicker, comment them out of bob74_ipl, as I ha
 ## Resource List
 
 ```cfg
-ensure bob74_ipl
-ensure online_interiors
+start bob74_ipl
+start online_interiors
 ```
 
 ----------------------
