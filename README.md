@@ -2,7 +2,9 @@
 
 This repository is a FiveM resource created by Cloudy that adds ipl/map edits, teleports, and blips to the world of GTA 5.
 
-This fork adds a fix for Franklin's mansion after the mpsecurity update, (courtesy of GTA5Mods member, katsutosh) as well as adds teleporters and blips for Diamond Casino & Resort, Los Santos Tuners, and The Contract (aka mpsecurity).
+This fork adds a fix for Franklin's mansion after the mpsecurity update, (courtesy of GTA5Mods member, katsutosh) as well as adds teleporters and blips for Diamond Casino & Resort, Los Santos Tuners, The Contract, and The Criminal Enterprises gamebuilds.
+
+As with many of my other repositories, it is recommended to be used with the ***latest*** gamebuild.
 
 ----------------------
 
@@ -97,18 +99,6 @@ These fixes and additions include:
 I have added a map blip for this club, however by default, you can't enter it; this was done by Rockstar Games themselves.
 
 There as no teleports as I didn't think this was necessary, plus there are a ton of paid and free MLO resources for this club.
-
-You can however add a folder to the `stream` folder and add access to the club using this resource here:
-
-[Bahaha Mamas - Add Doors](https://github.com/TayMcKenzieNZ/nw_bahamaMama)
-
-- Grab all the files from the `nw_bahamaMama/stream` folder
-
-- Create a new folder inside online-interiors `stream` folder and name it `Bahama Mamas`
-
-- Paste the copied files inside this folder
-
-You're all set 😃
 
 ----------------------
 
