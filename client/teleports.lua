@@ -382,6 +382,36 @@ local teleports = {
 	
 	[260] = {text = "Exit Farmhouse", dest = {261}, coord = vector3(1929.95, 4634.96, 40.47), h = 359.21, veh = false}, -- On Foot Exit
 	[261] = {text = "Enter Farmhouse", dest = {260}, coord = vector3(844.68, -3004.97, -44.4), h = 91.45, veh = false}, -- On Foot Entry
+	
+	
+	-- Los Santos Drug Wars Interiors --
+	
+	[262] = {text = "Exit RV", dest = {263}, coord = vector3(2318.96, 2553.64, 47.69), h = 221.7, veh = false},
+	[263] = {text = "Enter RV", dest = {262}, coord = vector3(482.35, -2623.84, -49.06), h = 180.13, veh = false},
+	
+	[264] = {text = "Exit Freakshop", dest = {265}, coord = vector3(574.46, -422.73, -69.65), h = 91.33, veh = true},
+	[265] = {text = "Enter Freakshop", dest = {264}, coord = vector3(599.00, -426.12, 24.74), h = 266.14, veh = true},
+	
+---- Day Time Variant Of Morgue Interior ---
+
+	[266] = {text = "Exit Morgue", dest = {267}, coord = vector3(232.15, -1360.84, 28.65), h = 51.9, veh = false}, -- On Foot Exit
+	[267] = {text = "Enter Morgue", dest = {266}, coord = vector3(486.69, -2573.35, -66.6), h = 1.75, veh = false}, -- On Foot Entry
+	
+	
+	
+---- Vinewood Rooftop Party ---
+
+	[268] = {text = "Leave", dest = {269, 272}, coord = vector3(-277.71, 282.77, 89.89), h = 181.52, veh = false}, -- On Foot Exit
+	[269] = {text = "Go To Rooftop", dest = {272, 268}, coord = vector3(-271.8, 289.57, 104.99), h = 183.29, veh = false}, -- On Foot Entry
+	
+	
+	
+---- Vinewood Sexy New Garage ---
+
+	[270] = {text = "Enter Garage", dest = {271}, coord = vector3(519.88, -2637.43, -49.0), h = 356.62, veh = true}, -- Vehicle Exit
+	[271] = {text = "Leave Garage", dest = {270}, coord = vector3(-270.71, 280.69, 90.2), h = 187.77, veh = true}, -- Vehicle Entry
+	
+	[272] = {text = "Enter Garage On Foot", dest = {269, 268}, coord = vector3(531.72, -2637.62, -49.0), h = 89.72, veh = false}, -- On Foot Exit
 
 }
 
@@ -597,7 +627,7 @@ Citizen.CreateThread(function()
                     -- DrawMarker(1, var.coord.x, var.coord.y, var.coord.z - 1.02, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2.5, 2.5, 0.9, 255, 255, 255, 255, false, false, 2, false, nil, nil, false)
 
                     -- Interaction distance
-                    if (distance < 2.0) then
+                    if (distance < 1.2) then
                         if (vehicle > 0 and playerIsDriver) or (vehicle == 0) then
                             if (#var.dest > 1) then
                                 DrawMenu(i)

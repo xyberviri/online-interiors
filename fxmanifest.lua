@@ -8,6 +8,9 @@ repository "https://github.com/TayMcKenzieNZ/online-interiors"
 
 dependencies {"bob74_ipl"}
 
+
+    data_file 'DLC_ITYP_REQUEST' 'stream/Casino Penthouse\vw_vwdlc_int_02.ytyp'
+
 client_scripts {
     "client/*.lua",
     "client/maps/after_hours/nightclub/*.lua",
@@ -40,12 +43,10 @@ client_scripts {
 -- These will not work unless the gamebuild is forced to a higher dlc level than FiveM's default Arena Wars level.
 
 
-	"client/maps/casino/*.lua",  -- DLC Tuners (Requires forced gamebuild 2060 or higher)
-		"client/maps/arcade/*.lua",  --DLC Casino Heist (Requires forced gamebuild 2189 or higher)
-	"client/maps/mptuners/*.lua",  -- DLC Tuners (Requires forced gamebuild 2189 or higher)
-	"client/maps/mpsecurity/*.lua",  --DLC Contracts (Requires forced gamebuild 2545 or higher)
-    
-
-    data_file 'DLC_ITYP_REQUEST' 'stream/Casino Penthouse\vw_vwdlc_int_02.ytyp'
-
+	"client/maps/casino/*.lua",      -- DLC Tuners (Requires forced gamebuild 2060 or higher)
+	"client/maps/arcade/*.lua",      -- DLC Casino Heist (Requires forced gamebuild 2189 or higher)
+	"client/maps/mptuners/*.lua",    -- DLC Tuners (Requires forced gamebuild 2189 or higher)
+	"client/maps/mpsecurity/*.lua",  -- DLC Contracts (Requires forced gamebuild 2545 or higher)
+	"client/maps/drug_wars/*.lua"    -- DLC Los Santos Drug Wars (Requires forced gamebuild 2802 or higher)
+	
 }

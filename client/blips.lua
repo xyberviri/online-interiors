@@ -265,8 +265,25 @@ local blips = {
     {text = "Union Depository", color = 28, sprite = 50, coord = vector3(-88.81, -677.03, 35.23)},
 	
 	
-	-- Farmhouse Interior - The Criminal Enterprises  
+	
+-- THE CRIMINAL ENTERPRISE DLC
+
+
+	-- Farmhouse Interior  
     {text = "Farmhouse Interior", color = 0, sprite = 84, coord = vector3(1930.07, 4634.88, 40.47)},
+
+	
+---- LOS SANTOS DRUG WARS DLC
+
+	-- Drug RV
+    {text = "Drug RV", color = 2, sprite = 499, coord = vector3(2318.85, 2553.79, 47.69)},
+	
+	
+	-- Freakshop
+    {text = "Freakshop Hideout", color = 2, sprite = 473, coord = vector3(599.0, -426.12, 266.14)},
+	
+	-- Vinewood Rooftop
+    {text = "Vinewood Rooftop", color = 48, sprite = 184, coord = vector3(-271.73, 289.52, 104.99)},
 
 }
 
