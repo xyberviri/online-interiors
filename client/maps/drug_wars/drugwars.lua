@@ -56,7 +56,7 @@ Citizen.CreateThread(function()
     RefreshInterior(interiorid)
 
 
--- NEW GARAG. Change colours by changing the number 8 (red) in the 'SetInteriorEntitySetColor(intId, "entity_set_tint_01", 8)' field
+-- NEW GARAGE. Change colours by changing the number 8 (red) in the 'SetInteriorEntitySetColor(intId, "entity_set_tint_01", 8)' field. Numbers I've tried are 5, 6, 7, 8, 9
 
  RequestIpl("xm3_int_placement_xm3_interior_1_dlc_int_01_xm3_milo_")
 CreateThread(function()
