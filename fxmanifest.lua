@@ -1,9 +1,8 @@
 fx_version "cerulean"
 game "gta5"
 
-author "Cloudy"
-version "2.2"
-description "A FiveM resource adding ipl/map edits, teleport's, and blips to the map for FiveM."
+author "TayMcKenzieNZ"
+description "A FiveM resource adding ipl/map edits, teleports, and blips to the map for FiveM."
 repository "https://github.com/TayMcKenzieNZ/online-interiors"
 
 dependencies {"bob74_ipl"}
