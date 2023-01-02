@@ -619,7 +619,7 @@ Citizen.CreateThread(function()
                 local distance = #((vehicle ~= 0 and vehicleCoords or playerCoords) - var.coord)
 
                 -- Draw distance
-                if (distance < 75.0) then
+                if (distance < 15.0) then
                     wait = 0
 
                     DrawMarker(1, var.coord.x, var.coord.y, var.coord.z - 1.02, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.7, 0.7, 0.9, 77, 181, 255, 0.8, false, false, 2,
