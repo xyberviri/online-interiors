@@ -1,10 +1,11 @@
 # Online Interiors
 
 <p align="center">
-    <img src="https://img.shields.io/badge/license-MIT-green" alt="License">
-    <a href="https://github.com/TayMcKenzieNZ/online-interiors/stargazers"><img src="https://img.shields.io/github/stars/TayMcKenzieNZ/online-interiors.svg?style=social" alt="Stars"></a>
-    <a href="https://github.com/TayMcKenzieNZ/online-interiors/network/members"><img src="https://img.shields.io/github/forks/TayMcKenzieNZ/online-interiors.svg?style=social" alt="Forks"></a>
+  <a href="https://github.com/TayMcKenzieNZ/online-interiors/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-GPL%20v3-blue.svg"></a>
+  <a href="https://github.com/TayMcKenzieNZ/online-interiors/stargazers"><img src="https://img.shields.io/github/stars/TayMcKenzieNZ/online-interiors.svg?style=social"></a>
+  <a href="https://github.com/TayMcKenzieNZ/online-interiors/network/members"><img src="https://img.shields.io/github/forks/TayMcKenzieNZ/online-interiors.svg?style=social"></a>
 </p>
+
 
 
 This repository is a FiveM resource created by Cloudy that adds ipl/map edits, teleports, and blips to the world of GTA 5.
