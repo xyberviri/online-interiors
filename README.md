@@ -1,5 +1,12 @@
 # Online Interiors
 
+<p align="center">
+    <img src="https://img.shields.io/badge/license-MIT-green" alt="License">
+    <a href="https://github.com/TayMcKenzieNZ/online-interiors/stargazers"><img src="https://img.shields.io/github/stars/TayMcKenzieNZ/online-interiors.svg?style=social" alt="Stars"></a>
+    <a href="https://github.com/TayMcKenzieNZ/online-interiors/network/members"><img src="https://img.shields.io/github/forks/TayMcKenzieNZ/online-interiors.svg?style=social" alt="Forks"></a>
+</p>
+
+
 This repository is a FiveM resource created by Cloudy that adds ipl/map edits, teleports, and blips to the world of GTA 5.
 
 This fork adds a fix for Franklin's mansion after the mpsecurity update, (courtesy of GTA5Mods member, katsutosh) as well as adds teleporters and blips for Diamond Casino & Resort, Los Santos Tuners, The Contract, and The Criminal Enterprises gamebuilds.
