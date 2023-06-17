@@ -412,6 +412,12 @@ local teleports = {
 	[271] = {text = "Leave Garage", dest = {270}, coord = vector3(-270.71, 280.69, 90.2), h = 187.77, veh = true}, -- Vehicle Entry
 	
 	[272] = {text = "Enter Garage On Foot", dest = {269, 268}, coord = vector3(531.72, -2637.62, -49.0), h = 89.72, veh = false}, -- On Foot Exit
+    
+    
+---- GAMEBUILD 2944 ----
+
+	[273] = {text = "Enter Secret Facility", dest = {274}, coord = vector3(-1922.49, 3749.84, -99.65), h = 271.74, veh = false}, -- On Foot Exit
+	[274] = {text = "Leave Garage On Foot", dest = {273}, coord = vector3(-2052.06, 3237.58, 31.5), h = 56.98, veh = false}, -- On Foot Exit
 
 }
 
