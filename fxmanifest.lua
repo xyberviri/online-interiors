@@ -46,6 +46,7 @@ client_scripts {
 	"client/maps/arcade/*.lua",      -- DLC Casino Heist (Requires forced gamebuild 2189 or higher)
 	"client/maps/mptuners/*.lua",    -- DLC Tuners (Requires forced gamebuild 2189 or higher)
 	"client/maps/mpsecurity/*.lua",  -- DLC Contracts (Requires forced gamebuild 2545 or higher)
-	"client/maps/drug_wars/*.lua"    -- DLC Los Santos Drug Wars (Requires forced gamebuild 2802 or higher)
+	"client/maps/drug_wars/*.lua",    -- DLC Los Santos Drug Wars (Requires forced gamebuild 2802 or higher)
+	"client/maps/mercenary/*.lua"    -- DLC San Andreas Mercenaries  (Requires forced gamebuild 2944 or higher)
 	
 }
