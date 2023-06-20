@@ -285,6 +285,9 @@ local blips = {
 	-- Vinewood Rooftop
     {text = "Vinewood Rooftop", color = 48, sprite = 184, coord = vector3(-271.73, 289.52, 104.99)},
 
+
+---- LOS SANTOS MERCENARY
+    {text = "The Vinewood Car Club", color = 49, sprite = 524, coord = vector3(1218.3970, -3329.7942, 4.9298)},
 }
 
 -- Don't edit below this line.
