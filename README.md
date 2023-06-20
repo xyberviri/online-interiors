@@ -8,9 +8,11 @@
 
 
 
-This repository is a FiveM resource created by Cloudy that adds ipl/map edits, teleports, and blips to the world of GTA 5.
+This repository is a FiveM resource created by Cloudy that adds IPL /map edits, teleports, and blips to the world of GTA 5.
 
-This fork adds a fix for Franklin's mansion after the mpsecurity update, (courtesy of GTA5Mods member, katsutosh) as well as adds teleporters and blips for Diamond Casino & Resort, Los Santos Tuners, The Contract, and The Criminal Enterprises gamebuilds.
+All gamebuilds are supported however for all interiors, props and blips to work, it's best to use the very latest.
+
+This fork adds a fix for Franklin's mansion after the mpsecurity update, (courtesy of GTA5Mods member, katsutosh) as well as adds teleporters and blips for Diamond Casino & Resort, Los Santos Tuners, The Contract, The Criminal Enterprises, Los Santos Drug Wars and the San Andreas Mercenaries gamebuilds.
 
 As with many of my other repositories, it is recommended to be used with the ***latest*** gamebuild.
 
@@ -38,7 +40,7 @@ Alternatively, you can download the **zip** folder from above and put the files 
 
 3. Download the latest recommended artifacts [for Windows](https://runtime.fivem.net/artifacts/fivem/build_server_windows/master/) **or** [for Linux](https://runtime.fivem.net/artifacts/fivem/build_proot_linux/master/)
 
-4. Enforce the Gamebuild to 2699 [How To Enforce Gamebuild [Tutorial]](https://forum.cfx.re/t/tutorial-forcing-gamebuild-to-casino-cayo-perico-or-tuners-update/4784977)
+4. Enforce the Gamebuild to 2944 [How To Enforce Gamebuild [Tutorial]](https://forum.cfx.re/t/tutorial-forcing-gamebuild-to-casino-cayo-perico-or-tuners-update/4784977)
 
 5. start  "bob74_ipl" and "online_interiors" in your "server.cfg". **("bob74_ipl" MUST BE STARTED BEFORE "online_interiors")**
 
@@ -166,6 +168,8 @@ Players can access the teleporter on foot but will be denied if they are in / on
 ## Thanks 🙏
 
 **Huge thanks to:**
+
+- [Derass](https://forum.cfx.re/t/new-dlc-san-andreas-mercenaries-mp2023-01-mp2023-01-09gec-info/5118619)
 
 - [AvaN0x](https://github.com/AvaN0x)
 
