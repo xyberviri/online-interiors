@@ -8,10 +8,8 @@ repository "https://github.com/TayMcKenzieNZ/online-interiors"
 dependencies {"bob74_ipl"}
 
 
-    data_file 'DLC_ITYP_REQUEST' 'stream/Casino Penthouse\vw_vwdlc_int_02.ytyp' -- Modified Casino Penthouse
-    data_file 'DLC_ITYP_REQUEST' 'stream\Mercenary Avenger\m23_1_dlc_int_01_m23_1.ytyp' -- Modified Avenger ytyp, so custom named entitysets work
-    data_file 'DLC_ITYP_REQUEST' 'stream\Mercenary Garage\m23_1_dlc_int_02_m23_1.ytyp' -- Modified Garage ytyp, so custom named entitysets work
-    data_file 'DLC_ITYP_REQUEST' 'stream\Mercenary Zancudo\m23_1_dlc_int_03_m23_1.ytyp' -- Modified Zancudo Bunker ytyp, so custom named entitysets work
+    data_file 'DLC_ITYP_REQUEST' 'stream/Casino Penthouse\vw_vwdlc_int_02.ytyp'
+
 
 client_scripts {
     "client/*.lua",
@@ -42,7 +40,7 @@ client_scripts {
     "client/maps/import_export/vehicle_warehouse/*.lua",
     "client/maps/smugglers/hanger/*.lua",
 
--- These will not work unless the gamebuild is forced to a higher dlc level than FiveM's default Arena Wars level.
+-- THESE WILL NOT WORK UNLESS THE GAMEBUILD IS FORCED TO A HIGHER DLC LEVEL THAN FIVEM'S DEFAULT ARENA WARS LEVEL. --
 
 
 	"client/maps/casino/*.lua",      -- DLC Tuners (Requires forced gamebuild 2060 or higher)
