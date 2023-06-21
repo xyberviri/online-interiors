@@ -415,11 +415,18 @@ local teleports = {
     
     
 ---- GAMEBUILD 2944 ----
-	[273] = {text = "Enter Secret Facility", dest = {274}, coord = vector3(-1922.49, 3749.84, -99.65), h = 271.74, veh = false}, -- On Foot Exit
-	[274] = {text = "Leave Garage On Foot", dest = {273}, coord = vector3(-2052.06, 3237.58, 31.5), h = 56.98, veh = false}, -- On Foot Exit
 
-    [275] = {text = "Enter Vinewood Car club", dest = {276}, coord = vector3(1233.45, -3230.44, 5.69), h = 358.82, veh = true},    
-    [276] = {text = "Leave Vinewood Car club", dest = {275}, coord = vector3(1205.75, -3253.51, -48.99), h = 92.05, veh = true},
+  -- Zancudo Bunker
+	[273] = {text = "Enter Secret Facility", dest = {274}, coord = vector3(-1922.49, 3749.84, -99.65), h = 271.74, veh = false}, -- On Foot Exit
+	[274] = {text = "Leave Secret Facility", dest = {273}, coord = vector3(-2052.06, 3237.58, 31.5), h = 56.98, veh = false}, -- On Foot Exit
+
+  -- Vinewood Car Club Vehicle Teleports 
+    [275] = {text = "Enter Vinewood Car club", dest = {276}, coord = vector3(1233.45, -3230.44, 5.69), h = 358.82, veh = true}, -- Vehicle Exit
+    [276] = {text = "Leave Vinewood Car club", dest = {275}, coord = vector3(1205.75, -3253.51, -48.99), h = 92.05, veh = true}, -- Vehicle Entry
+
+  -- Vinewood Car Club On Foot Teleports 
+    [277] = {text = "Enter Vinewood Car club", dest = {278}, coord = vector3(1196.8, -3253.66, 7.1), h = 93.16, veh = false}, -- On Foot Exit
+    [278] = {text = "Leave Vinewood Car club", dest = {277}, coord = vector3(1180.82, -3260.52, -48.0), h = 269.77, veh = false}, -- On Foor Entry
 }
 
 
@@ -626,8 +633,8 @@ Citizen.CreateThread(function()
             if (#var.dest > 0) then
                 local distance = #((vehicle ~= 0 and vehicleCoords or playerCoords) - var.coord)
 
-                -- Draw distance
-                if (distance < 40.0) then
+                -- Draw distance for teleporter to appear
+                if (distance < 75.0) then
                     wait = 0
 
                     DrawMarker(1, var.coord.x, var.coord.y, var.coord.z - 1.02, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.7, 0.7, 0.9, 77, 181, 255, 0.8, false, false, 2,
