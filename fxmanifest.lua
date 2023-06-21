@@ -2,13 +2,16 @@ fx_version "cerulean"
 game "gta5"
 
 author "TayMcKenzieNZ"
-description "A FiveM resource adding ipl/map edits, teleports, and blips to the map for FiveM."
+description "A FiveM resource adding IPL / map edits, entitysets, teleports, and blips to the map for FiveM."
 repository "https://github.com/TayMcKenzieNZ/online-interiors"
 
 dependencies {"bob74_ipl"}
 
 
-    data_file 'DLC_ITYP_REQUEST' 'stream/Casino Penthouse\vw_vwdlc_int_02.ytyp'
+    data_file 'DLC_ITYP_REQUEST' 'stream/Casino Penthouse\vw_vwdlc_int_02.ytyp' -- Modified Casino Penthouse
+    data_file 'DLC_ITYP_REQUEST' 'stream\Mercenary Avenger\m23_1_dlc_int_01_m23_1.ytyp' -- Modified Avenger ytyp, so custom named entitysets work
+    data_file 'DLC_ITYP_REQUEST' 'stream\Mercenary Garage\m23_1_dlc_int_02_m23_1.ytyp' -- Modified Garage ytyp, so custom named entitysets work
+    data_file 'DLC_ITYP_REQUEST' 'stream\Mercenary Zancudo\m23_1_dlc_int_03_m23_1.ytyp' -- Modified Zancudo Bunker ytyp, so custom named entitysets work
 
 client_scripts {
     "client/*.lua",
