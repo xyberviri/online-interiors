@@ -15,7 +15,7 @@ local blips = {
     {text = "Simeon's Dealership", color = 0, sprite = 293, coord = vector3(-68.22, -1111.15, 25.91)},
 	
 	-- O'Niel Farm 
-    {text = "Simeon's Dealership", color = 69, sprite = 270, coord = vector3(2453.57, 4955.34, 44.96)},
+    {text = "O'Niel Farm", color = 69, sprite = 270, coord = vector3(2453.57, 4955.34, 44.96)},
 
     -- Apartments
     {text = "Apartment", color = 3, sprite = 40, coord = vector3(-911.91, -451.08, 39.61)},
@@ -287,7 +287,10 @@ local blips = {
 
 
 ---- LOS SANTOS MERCENARY
-    {text = "The Vinewood Car Club", color = 49, sprite = 524, coord = vector3(1218.3970, -3329.7942, 4.9298)},
+
+	-- The Vinewood Car Club
+    {text = "The Vinewood Car Club", color = 49, sprite = 524, coord = vector3(1233.44, -3234.42, 5.53)},
+    {text = "Fort Zancudo Secret Base", color = 1, sprite = 66, coord = vector3(-2052.02, 3237.51, 31.5)},
 }
 
 -- Don't edit below this line.
