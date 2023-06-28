@@ -427,6 +427,11 @@ local teleports = {
   -- Vinewood Car Club On Foot Teleports 
     [277] = {text = "Enter Vinewood Car club", dest = {278}, coord = vector3(1196.8, -3253.66, 7.1), h = 93.16, veh = false}, -- On Foot Exit
     [278] = {text = "Leave Vinewood Car club", dest = {277}, coord = vector3(1180.82, -3260.52, -48.0), h = 269.77, veh = false}, -- On Foor Entry
+    
+    
+  -- Motel Interior, Base Game -- 
+    [279] = {text = "Enter Motel", dest = {280}, coord = vector3(151.44, -1007.8, -99.0), h = 357.17, veh = false}, -- On Foot Exit
+    [280] = {text = "Leave Motel", dest = {279}, coord = vector3(1121.37, 2642.07, 38.14), h = 359.26, veh = false}, -- On Foor Entry
 }
 
 

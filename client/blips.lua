@@ -39,6 +39,10 @@ local blips = {
     {text = "House", color = 47, sprite = 40, coord = vector3(-857.798, 682.563, 152.6529)},
     {text = "House", color = 47, sprite = 40, coord = vector3(120.500, 549.952, 184.097)},
     {text = "House", color = 47, sprite = 40, coord = vector3(-1288.000, 440.748, 97.69459)},
+    
+    
+    -- Motel
+    {text = "Motel Room", color = 2, sprite = 40, coord = vector3(1121.45, 2641.68, 38.14)},
 
     -- Offices
     {text = "Office", color = 8, sprite = 475, coord = vector3(-68.342, -799.828, 44.227)},
