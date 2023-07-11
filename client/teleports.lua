@@ -493,6 +493,9 @@ local function Teleport(teleport)
 
                 Citizen.Wait(500)
                 DoScreenFadeIn(500)
+                if i == 200 then
+                    TriggerEvent("online-interiors:enterCasino")
+                end
             end
         end
     end)
@@ -583,10 +586,6 @@ local function DrawMenu(teleport)
                         -- exit casino
                         if i == 200 then
                             TriggerEvent("online-interiors:exitCasino")
-                        end
-                        -- enter casino
-                        if var2 == 200 then
-                            TriggerEvent("online-interiors:enterCasino")
                         end
                     end
                 end
