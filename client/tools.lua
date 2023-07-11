@@ -163,6 +163,13 @@ end
 --
 -- Functions
 --
+---
+----------------------------   CASINO WALLS    ---------------------------------------
+---
+--- We can change the casino scaleform to falling diamonds, skulls and snowflakes. ---
+-- CASINO_DIA_PL    - Falling Diamonds
+-- CASINO_HLW_PL    - Falling Skulls
+-- CASINO_SNWFLK_PL - Falling Snowflakes
 
 function setVideoWallTvChannel()
     SetTvChannelPlaylist(0, 'CASINO_DIA_PL', true)
