@@ -164,8 +164,14 @@ end
 -- Functions
 --
 
+--- We can change the casino scaleform to falling diamonds, skulls and snowflakes. ---
+-- CASINO_DIA_PL    - Falling Diamonds
+-- CASINO_HLW_PL    - Falling Skulls
+-- CASINO_SNWFLK_PL - Falling Snowflakes
+
+
 function setVideoWallTvChannel()
-    SetTvChannelPlaylist(0, 'CASINO_DIA_PL', true)
+    SetTvChannelPlaylist(0, 'CASINO_DIA_PL', true) 
     SetTvAudioFrontend(true)
     SetTvVolume(-100.0)
     SetTvChannel(0)
@@ -178,4 +184,10 @@ end)
 
 AddEventHandler('online-interiors:exitCasino', function()
     inCasino = false
+end)
+
+AddEventHandler("onResourceStop", function(resource)
+    if resource == GetCurrentResourceName() then
+        ReleaseNamedRendertarget('casinoscreen_01')
+    end
 end)

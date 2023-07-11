@@ -40,6 +40,7 @@ client_scripts {
     "client/maps/import_export/vehicle_warehouse/*.lua",
     "client/maps/smugglers/hanger/*.lua",
     "client/maps/musiclocker/*.lua",
+     "client/maps/cpyacht/*.lua",
 
 -- These will not work unless the gamebuild is forced to a higher dlc level than FiveM's default Arena Wars level.
 

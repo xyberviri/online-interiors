@@ -454,6 +454,14 @@ local teleports = {
     -- Casino Garage Elevator --
     [283] = { text = "Casino Garage", dest = { 245, 197, 198, 199, 200, 202, 201 }, coord = vector3(1380.28, 178.28,
         -48.99), h = 3.74, veh = false },
+        
+    -- Cayo Perico Yacht  --
+    [284] = { text = "Enter Yacht", dest = { 285 }, coord = vector3(3602.13, -4781, 5.89), h = 280.01, veh = false },
+    [285] = { text = "Leave Yacht", dest = { 284 }, coord = vector3(3577.75, -4781.08, 5.89), h = 79.55, veh = false },
+    
+    
+     [286] = { text = "Enter Captian's Room", dest = { 287 }, coord = vector3(3614.43, -4781.14, 11.91), h = 80.03, veh = false },
+    [287] = { text = "Exit", dest = { 286 }, coord = vector3(3620.65, -4781.14, 11.92), h = 267.34, veh = false },
 }
 
 
@@ -493,6 +501,9 @@ local function Teleport(teleport)
 
                 Citizen.Wait(500)
                 DoScreenFadeIn(500)
+                if i == 200 then
+                    TriggerEvent("online-interiors:enterCasino")
+                end
             end
         end
     end)
@@ -583,10 +594,6 @@ local function DrawMenu(teleport)
                         -- exit casino
                         if i == 200 then
                             TriggerEvent("online-interiors:exitCasino")
-                        end
-                        -- enter casino
-                        if var2 == 200 then
-                            TriggerEvent("online-interiors:enterCasino")
                         end
                     end
                 end

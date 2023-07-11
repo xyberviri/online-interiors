@@ -96,6 +96,7 @@ local blips = {
     -- Yacht
     { text = "Yacht",                      color = 3,  sprite = 455, coord = vector3(-2043.97, -1031.58, 11.98) },
     { text = "Yacht",                      color = 3,  sprite = 455, coord = vector3(-1363.72, 6734.10, 2.44) },
+    { text = "Yacht",                      color = 3,  sprite = 455, coord = vector3(3611.22, -4781.03, 11.91) },
 
     -- Arcade. Requires Enforcing Of Gamebuild. There are other locations, however I picked this one  --
     { text = "Arcade",                     color = 15, sprite = 647, coord = vector3(758.76, -816.06, 26.29) },
