@@ -179,3 +179,9 @@ end)
 AddEventHandler('online-interiors:exitCasino', function()
     inCasino = false
 end)
+
+AddEventHandler("onResourceStop", function(resource)
+    if resource == GetCurrentResourceName() then
+        ReleaseNamedRendertarget('casinoscreen_01')
+    end
+end)
