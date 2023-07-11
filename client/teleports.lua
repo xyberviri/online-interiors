@@ -250,13 +250,13 @@ local teleports = {
     [181] = {text = "Exit Missile Silo", coord = vector3(1259.31, 4799.19, -39.5), h = 78.22, dest = {180}, veh = false},
 
     -- Casino elevators
-    [197] = {text = "Rooftop", coord = vector3(964.83, 58.48, 112.37), h = 64.13, dest = {245, 198, 199, 200, 202, 203, 201}, veh = false},
-    [198] = {text = "Hotel", coord = vector3(2518.76, -262.10, -39.13), h = 4.95, dest = {245, 197, 199, 200, 202, 203, 201}, veh = false},
-    [199] = {text = "Offices", coord = vector3(2517.65, -263.4, -55.12), h = 10.29, dest = {245, 197, 198, 200, 201, 202, 203}, veh = false},
-    [200] = {text = "Ground Floor", coord = vector3(2463.24, -281.05, -58.48), h = 315.36, dest = {245, 197, 198, 199, 202, 203, 201}, veh = false},
-    [201] = {text = "Casino Main Entrance", coord = vector3(935.8, 46.88, 81.1), h = 133.58, dest = {245, 197, 198, 199, 200, 202, 203}, veh = false},
-    [202] = {text = "Loading Bay", coord = vector3(2518.55, -279.1, -64.72), h = 268.34, dest = {245, 197, 198, 199, 200, 203, 201}, veh = false},
-    [203] = {text = "Vault", coord = vector3(2519.03, -279.21, -70.71), h = 271.9, dest = {245, 197, 198, 199, 200, 202, 201}, veh = false},
+    [197] = {text = "Rooftop", coord = vector3(964.83, 58.48, 112.37), h = 64.13, dest = {245, 198, 199, 200, 202, 203, 283, 201}, veh = false},
+    [198] = {text = "Hotel", coord = vector3(2518.76, -262.10, -39.13), h = 4.95, dest = {245, 197, 199, 200, 202, 203, 283, 201}, veh = false},
+    [199] = {text = "Offices", coord = vector3(2517.65, -263.4, -55.12), h = 10.29, dest = {245, 197, 198, 200, 201, 202, 203, 283}, veh = false},
+    [200] = {text = "Ground Floor", coord = vector3(2463.24, -281.05, -58.48), h = 315.36, dest = {245, 197, 198, 199, 202, 203, 283, 201}, veh = false},
+    [201] = {text = "Casino Main Entrance", coord = vector3(935.8, 46.88, 81.1), h = 133.58, dest = {245, 197, 198, 199, 200, 202, 203, 283}, veh = false},
+    [202] = {text = "Loading Bay", coord = vector3(2518.55, -279.1, -64.72), h = 268.34, dest = {245, 197, 198, 199, 200, 203, 283, 201}, veh = false},
+    [203] = {text = "Vault", coord = vector3(2519.03, -279.21, -70.71), h = 271.9, dest = {245, 197, 198, 199, 200, 202, 201, 283}, veh = false},
 
     -- Casino vehicle entrance
     [204] = {text = "Exit Casino Loading Bay", coord = vector3(999.05, -53.19, 74.95), h = 211.72, dest = {205}},
@@ -267,8 +267,8 @@ local teleports = {
     --	[207] = {text = "Enter Arena", coord = vector3(2834.96, -3918.024, 140.0008), h = 0.0, dest = {206}},
 
     -- Music Locker
-    --    [208] = {text = "Leave Music Locker", coord = vector3(1578.25, 253.86, -46.01), h = 181.46, dest = {209}, veh = false},
-    --    [209] = {text = "Enter Music Locker", coord = vector3(987.57, 79.82, 80.99), h = 330.39, dest = {208}, veh = false},
+        [208] = {text = "Leave Music Locker", coord = vector3(1578.25, 253.86, -46.01), h = 181.46, dest = {209}, veh = false},
+        [209] = {text = "Enter Music Locker", coord = vector3(987.57, 79.82, 80.99), h = 330.39, dest = {208}, veh = false},
 
     -- Tuner DLC Garage 
     [210] = {text = "Leave Tuners Car Garage", dest = {211}, coord = vector3(-1357.85, 165.96, -99.03), h = 184.89},
@@ -343,7 +343,7 @@ local teleports = {
 	
 	
 	-- Casino Helipad
-	[245] = {text = "Helipad", dest = {197, 198, 199, 200, 201, 202, 203}, coord = vector3(971.89, 51.91, 120.24), h = 328.03, veh = false},
+	[245] = {text = "Helipad", dest = {197, 198, 199, 200, 201, 202, 203, 283}, coord = vector3(971.89, 51.91, 120.24), h = 328.03, veh = false},
 	
 	-- Tuners DLC Rooftop
 	[246] = {text = "Rooftop", dest = {247}, coord = vector3(743.43, -1797.16, 29.29), h = 82.66, veh = false},
@@ -432,6 +432,15 @@ local teleports = {
   -- Motel Interior, Base Game -- 
     [279] = {text = "Enter Motel", dest = {280}, coord = vector3(151.44, -1007.8, -99.0), h = 357.17, veh = false}, -- On Foot Exit
     [280] = {text = "Leave Motel", dest = {279}, coord = vector3(1121.37, 2642.07, 38.14), h = 359.26, veh = false}, -- On Foor Entry
+    
+    
+  -- Casino Garage -- 
+    [281] = {text = "Enter Garage", dest = {282}, coord = vector3(934.11, -2.45, 78.76), h = 150.13, veh = true},
+    [282] = {text = "Leave Garage", dest = {281}, coord = vector3(1340.99, 183.77, -47.97), h = 261.53, veh = true},
+    
+    
+  -- Casino Garage Elevator --
+    [283] = {text = "Casino Garage", dest = {245, 197, 198, 199, 200, 202, 201}, coord = vector3(1380.28, 178.28, -48.99), h = 3.74, veh = false},
 }
 
 

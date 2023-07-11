@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SInteriorOrderData>
+  <startFrom value="1094" />
+  <filePathHash value="0" />
+  <proxies>
+    <Item>h4_islandx_mansion_vault</Item>
+    <Item>h4_islandx_mansion_lockup_03</Item>
+    <Item>h4_islandx_mansion_lockup_02</Item>
+    <Item>h4_islandx_mansion_lockup_01</Item>
+    <Item>h4_int_placement_h4_interior_1_dlc_int_02_h4_milo_</Item>
+    <Item>h4_int_placement_h4_interior_0_int_sub_h4_milo_</Item>
+    <Item>h4_islandx_mansion_office</Item>
+    <Item>h4_islandx_yacht_01_int</Item>
+    <Item>h4_islandx_yacht_02_int</Item>
+    <Item>h4_islandx_yacht_03_int</Item>
+    <Item>h4_mph4_airstrip_interior_0_airstrip_hanger</Item>
+  </proxies>
+</SInteriorOrderData>

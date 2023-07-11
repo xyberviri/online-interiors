@@ -39,8 +39,9 @@ client_scripts {
     "client/maps/import_export/garages/maze_bank_west/*.lua",
     "client/maps/import_export/vehicle_warehouse/*.lua",
     "client/maps/smugglers/hanger/*.lua",
+    "client/maps/musiclocker/*.lua",
 
--- THESE WILL NOT WORK UNLESS THE GAMEBUILD IS FORCED TO A HIGHER DLC LEVEL THAN FIVEM'S DEFAULT ARENA WARS LEVEL. --
+-- These will not work unless the gamebuild is forced to a higher dlc level than FiveM's default Arena Wars level.
 
 
 	"client/maps/casino/*.lua",      -- DLC Tuners (Requires forced gamebuild 2060 or higher)
@@ -51,3 +52,13 @@ client_scripts {
 	"client/maps/mercenary/*.lua"    -- DLC San Andreas Mercenaries  (Requires forced gamebuild 2944 or higher)
 	
 }
+
+
+data_file 'DLC_ITYP_REQUEST' 'stream/hollywood_metadata_012_strm.ytyp'
+
+data_file 'DLC_ITYP_REQUEST' 'stream/m23_1_dlc_int_03_m23_1.ytyp'
+
+data_file 'DLC_ITYP_REQUEST' 'stream/h4_dlc_int_02_h4.ytyp'
+
+data_file 'DLC_ITYP_REQUEST' 'stream/bzzz_light_stage.ytyp'
+
