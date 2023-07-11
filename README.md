@@ -67,7 +67,7 @@ start online_interiors
 
 ### Note from TayMcKenzieNZ
 
-I admire Cloudy and Bob's efforts and by no means do I take any credit. I have simply continued their legacy in updating this resource for use with interiors featured in the Contracts DLC aka mpsecurity / 2545, as well as added fixes and additional props.
+I admire Cloudy and Bob's efforts and by no means do I take any credit. I have simply continued their legacy in updating this resource for use with interiors featured in the new GTA:Online DLCs, as well as added fixes and additional props.
 
 These fixes and additions include:
 
