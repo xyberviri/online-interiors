@@ -580,6 +580,14 @@ local function DrawMenu(teleport)
                     if (i2 == var.index) then
                         PlaySoundFrontend(-1, "SELECT", "HUD_FRONTEND_DEFAULT_SOUNDSET", true)
                         Teleport(var2)
+                        -- exit casino
+                        if i == 200 then
+                            TriggerEvent("online-interiors:exitCasino")
+                        end
+                        -- enter casino
+                        if var2 == 200 then
+                            TriggerEvent("online-interiors:enterCasino")
+                        end
                     end
                 end
             end

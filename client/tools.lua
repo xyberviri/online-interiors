@@ -101,3 +101,81 @@ function DrawSprite2(dict, name, x, y, width, height, rotation, color)
     local posY = ((y or 0) / resolution.height) + sizeH * 0.5
     DrawSprite(dict, name, posX, posY, sizeW, sizeH, rotation or 0.0, color[1] or 255, color[2] or 255, color[3] or 255, color[4] or 255)
 end
+
+
+local inCasino              = false
+local videoWallRenderTarget = nil
+local showBigWin            = false
+
+--
+-- Threads
+--
+
+function startCasinoThreads()
+    local interior = GetInteriorAtCoords(GetEntityCoords(PlayerPedId()))
+    PinInteriorInMemory(interior)
+    while not IsInteriorReady(interior) do Citizen.Wait(10) end
+    RequestStreamedTextureDict('Prop_Screen_Vinewood')
+
+    while not HasStreamedTextureDictLoaded('Prop_Screen_Vinewood') do
+        Citizen.Wait(100)
+    end
+
+    RegisterNamedRendertarget('casinoscreen_01')
+
+    LinkNamedRendertarget(`vw_vwint01_video_overlay`)
+
+    videoWallRenderTarget = GetNamedRendertargetRenderId('casinoscreen_01')
+    Citizen.CreateThread(function()
+        local lastUpdatedTvChannel = 0
+
+        while true do
+            Citizen.Wait(0)
+
+            if not inCasino then
+                ReleaseNamedRendertarget('casinoscreen_01')
+
+                videoWallRenderTarget = nil
+                showBigWin            = false
+
+                break
+            end
+
+            if videoWallRenderTarget then
+                local currentTime = GetGameTimer()
+
+                if (currentTime - lastUpdatedTvChannel) >= 42666 then
+                    setVideoWallTvChannel()
+                    lastUpdatedTvChannel = currentTime
+                end
+
+                SetTextRenderId(videoWallRenderTarget)
+                SetScriptGfxDrawOrder(4)
+                SetScriptGfxDrawBehindPausemenu(true)
+                DrawInteractiveSprite('Prop_Screen_Vinewood', 'BG_Wall_Colour_4x4', 0.25, 0.5, 0.5, 1.0, 0.0, 255, 255, 255, 255)
+                DrawTvChannel(0.5, 0.5, 1.0, 1.0, 0.0, 255, 255, 255, 255)
+                SetTextRenderId(GetDefaultScriptRendertargetRenderId())
+            end
+        end
+    end)
+end
+
+--
+-- Functions
+--
+
+function setVideoWallTvChannel()
+    SetTvChannelPlaylist(0, 'CASINO_DIA_PL', true)
+    SetTvAudioFrontend(true)
+    SetTvVolume(-100.0)
+    SetTvChannel(0)
+end
+
+AddEventHandler('online-interiors:enterCasino', function()
+    inCasino = true
+    startCasinoThreads()
+end)
+
+AddEventHandler('online-interiors:exitCasino', function()
+    inCasino = false
+end)
