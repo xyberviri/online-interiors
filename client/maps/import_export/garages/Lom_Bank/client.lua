@@ -2,7 +2,7 @@
 -- Use https://github.com/Bob74/bob74_ipl/wiki to edit below
 
 -- Lom Bank (Del Perro)
-Citizen.CreateThread(function()
+CreateThread(function()
     -- Getting the object to interact with
     ImportCEOGarage3 = exports['bob74_ipl']:GetImportCEOGarage3Object()
 
@@ -18,11 +18,10 @@ Citizen.CreateThread(function()
 
     -- Lighting style
     ImportCEOGarage3.Lighting.Set(ImportCEOGarage3.Part.Garage1, ImportCEOGarage3.Lighting.style1)
-    
+
     -- Removing ModShop
 	ImportCEOGarage3.Part.Remove(ImportCEOGarage3.Part.ModShop)
 
 	-- Refresh Interior
     RefreshInterior(ImportCEOGarage3.currentInteriorId)
-	
 end)

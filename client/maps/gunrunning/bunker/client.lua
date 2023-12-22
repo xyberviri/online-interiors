@@ -2,13 +2,13 @@
 -- Use https://github.com/Bob74/bob74_ipl/wiki to edit below
 
 -- Gunrunning Bunker (Grand Senora Desert)
-Citizen.CreateThread(function()
+CreateThread(function()
     -- Getting the object to interact with
     GunrunningBunker = exports['bob74_ipl']:GetGunrunningBunkerObject()
 
     -- Default style interior
     GunrunningBunker.Style.Set(GunrunningBunker.Style.default)
-    
+
     -- Upgraded tier
     GunrunningBunker.Tier.Set(GunrunningBunker.Tier.upgrade)
     -- Upgraded security

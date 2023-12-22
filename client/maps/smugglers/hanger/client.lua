@@ -2,7 +2,7 @@
 -- Use https://github.com/Bob74/bob74_ipl/wiki to edit below
 
 -- Smuggler Hanger (LSIA)
-Citizen.CreateThread(function()
+CreateThread(function()
     -- Getting the object to interact with
     SmugglerHangar = exports['bob74_ipl']:GetSmugglerHangarObject()
 

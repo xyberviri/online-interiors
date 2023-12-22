@@ -2,7 +2,7 @@
 -- Use https://github.com/Bob74/bob74_ipl/wiki to edit below
 
 -- Vehicle Warehouse (Location)
-Citizen.CreateThread(function()
+CreateThread(function()
     -- Getting the object to interact with
     ImportVehicleWarehouse = exports['bob74_ipl']:GetImportVehicleWarehouseObject()
 
@@ -14,7 +14,7 @@ Citizen.CreateThread(function()
 
     -- No invisible wall blocking the door to the staircase
     ImportVehicleWarehouse.Upper.Details.Enable(ImportVehicleWarehouse.Upper.Details.doorBlocker, false, true)
-    
+
     RefreshInterior(ImportVehicleWarehouse.Upper.interiorId)
 
 	-- Enabling all pumps & refreshing interior

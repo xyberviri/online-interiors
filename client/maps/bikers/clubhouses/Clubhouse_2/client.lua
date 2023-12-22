@@ -2,7 +2,7 @@
 -- Use https://github.com/Bob74/bob74_ipl/wiki to edit below
 
 -- Clubhouse 2 (Paleto Bay)
-Citizen.CreateThread(function()
+CreateThread(function()
     -- Getting the object to interact with
     BikerClubhouse2 = exports['bob74_ipl']:GetBikerClubhouse2Object()
 

@@ -28,12 +28,9 @@ local teleports = {
     [22] = { text = "W. MazeBank Office", dest = { 21, 23, 28, 29 }, coord = vector3(-1392.67, -480.18, 71.20), h = 2.53, veh = false },
     [23] = { text = "W. MazeBank Modshop", dest = { 21, 22, 28, 29 }, coord = vector3(-1397.59, -470.40, 78.19), h = 277.99 },
     [24] = { text = "W. MazeBank Modshop", dest = { 25, 26, 27, 30 }, coord = vector3(-1388.75, -480.90, 78.20), h = 8.45 },
-    [25] = { text = "W. Mazebank Car Garage - Floor 1C", dest = { 24, 26, 27, 30 }, coord = vector3(-1370.84, -481.24,
-        59.78), h = 353.27 },
-    [26] = { text = "W. Mazebank Car Garage - Floor 1B", dest = { 24, 25, 27, 30 }, coord = vector3(-1370.84, -481.24,
-        54.44), h = 353.27 },
-    [27] = { text = "W. Mazebank Car Garage - Floor 1A", dest = { 24, 25, 26, 30 }, coord = vector3(-1370.84, -481.24,
-        49.10), h = 353.27 },
+    [25] = { text = "W. Mazebank Car Garage - Floor 1C", dest = { 24, 26, 27, 30 }, coord = vector3(-1370.84, -481.24, 59.78), h = 353.27 },
+    [26] = { text = "W. Mazebank Car Garage - Floor 1B", dest = { 24, 25, 27, 30 }, coord = vector3(-1370.84, -481.24, 54.44), h = 353.27 },
+    [27] = { text = "W. Mazebank Car Garage - Floor 1A", dest = { 24, 25, 26, 30 }, coord = vector3(-1370.84, -481.24, 49.10), h = 353.27 },
     [28] = { text = "W. Mazebank Car Garage", dest = { 21, 22, 23, 29 }, coord = vector3(-1395.90, -480.69, 49.10), h = 286.12 },
     [29] = { text = "W. MazeBank Lobby", dest = { 21, 22, 23, 28 }, coord = vector3(-1370.96, -503.46, 33.15), h = 150.13, veh = false },
     [30] = { text = "W. MazeBank Parking Garage", dest = { 24, 25, 26, 27 }, coord = vector3(-1362.40, -472.13, 31.59), h = 103.50 },
@@ -92,10 +89,8 @@ local teleports = {
     [67] = { text = "Eclipse Towers, Apt 9", dest = { 70, 71 }, coord = vector3(-781.83, 326.10, 176.81), h = 179.20, veh = false },
     [68] = { text = "Eclipse Towers, Apt 5", dest = { 70, 71 }, coord = vector3(-774.12, 331.18, 207.62), h = 356.29, veh = false },
     [69] = { text = "Eclipse Towers, Apt 3", dest = { 70, 71 }, coord = vector3(-784.80, 323.63, 211.99), h = 263.39, veh = false },
-    [70] = { text = "Eclipse Towers Lobby", dest = { 62, 63, 64, 65, 66, 67, 68, 69, 71 }, coord = vector3(-773.88,
-        311.73, 85.70), h = 171.28, veh = false },
-    [71] = { text = "Eclipse Towers Garage", dest = { 62, 63, 64, 65, 66, 67, 68, 69, 70 }, coord = vector3(240.45,
-        -1004.74, -99.00), h = 97.03 },
+    [70] = { text = "Eclipse Towers Lobby", dest = { 62, 63, 64, 65, 66, 67, 68, 69, 71 }, coord = vector3(-773.88, 311.73, 85.70), h = 171.28, veh = false },
+    [71] = { text = "Eclipse Towers Garage", dest = { 62, 63, 64, 65, 66, 67, 68, 69, 70 }, coord = vector3(240.45, -1004.74, -99.00), h = 97.03 },
     [72] = { text = "Eclipse Towers Garage", dest = { 73 }, coord = vector3(228.16, -1002.04, -99.00), h = 359.13 },
     [73] = { text = "Exit Eclipse Towers Garage", dest = {}, coord = vector3(-800.42, 332.97, 85.70), h = 178.81 },
     [74] = { text = "Eclipse Towers Garage", dest = { 72 }, coord = vector3(-791.71, 332.84, 85.70), h = 349.23 },
@@ -255,20 +250,13 @@ local teleports = {
     [181] = { text = "Exit Missile Silo", coord = vector3(1259.31, 4799.19, -39.5), h = 78.22, dest = { 180 }, veh = false },
 
     -- Casino elevators
-    [197] = { text = "Rooftop", coord = vector3(964.83, 58.48, 112.37), h = 64.13, dest = { 245, 198, 199, 200, 202, 203,
-        283, 201 }, veh = false },
-    [198] = { text = "Hotel", coord = vector3(2518.76, -262.10, -39.13), h = 4.95, dest = { 245, 197, 199, 200, 202, 203,
-        283, 201 }, veh = false },
-    [199] = { text = "Offices", coord = vector3(2517.65, -263.4, -55.12), h = 10.29, dest = { 245, 197, 198, 200, 201,
-        202, 203, 283 }, veh = false },
-    [200] = { text = "Ground Floor", coord = vector3(2463.24, -281.05, -58.48), h = 315.36, dest = { 245, 197, 198, 199,
-        202, 203, 283, 201 }, veh = false },
-    [201] = { text = "Casino Main Entrance", coord = vector3(935.8, 46.88, 81.1), h = 133.58, dest = { 245, 197, 198,
-        199, 200, 202, 203, 283 }, veh = false },
-    [202] = { text = "Loading Bay", coord = vector3(2518.55, -279.1, -64.72), h = 268.34, dest = { 245, 197, 198, 199,
-        200, 203, 283, 201 }, veh = false },
-    [203] = { text = "Vault", coord = vector3(2519.03, -279.21, -70.71), h = 271.9, dest = { 245, 197, 198, 199, 200,
-        202, 201, 283 }, veh = false },
+    [197] = { text = "Rooftop", coord = vector3(964.83, 58.48, 112.37), h = 64.13, dest = { 245, 198, 199, 200, 202, 203, 283, 201 }, veh = false },
+    [198] = { text = "Hotel", coord = vector3(2518.76, -262.10, -39.13), h = 4.95, dest = { 245, 197, 199, 200, 202, 203, 283, 201 }, veh = false },
+    [199] = { text = "Offices", coord = vector3(2517.65, -263.4, -55.12), h = 10.29, dest = { 245, 197, 198, 200, 201, 202, 203, 283 }, veh = false },
+    [200] = { text = "Ground Floor", coord = vector3(2463.24, -281.05, -58.48), h = 315.36, dest = { 245, 197, 198, 199, 202, 203, 283, 201 }, veh = false },
+    [201] = { text = "Casino Main Entrance", coord = vector3(935.8, 46.88, 81.1), h = 133.58, dest = { 245, 197, 198, 199, 200, 202, 203, 283 }, veh = false },
+    [202] = { text = "Loading Bay", coord = vector3(2518.55, -279.1, -64.72), h = 268.34, dest = { 245, 197, 198, 199, 200, 203, 283, 201 }, veh = false },
+    [203] = { text = "Vault", coord = vector3(2519.03, -279.21, -70.71), h = 271.9, dest = { 245, 197, 198, 199, 200, 202, 201, 283 }, veh = false },
 
     -- Casino vehicle entrance
     [204] = { text = "Exit Casino Loading Bay", coord = vector3(999.05, -53.19, 74.95), h = 211.72, dest = { 205 } },
@@ -337,22 +325,17 @@ local teleports = {
     [237] = { text = "Leave Therapist Office", dest = { 238, 236 }, coord = vector3(-1898.53, -572.49, 11.85), h = 187.6, veh = false },
     [238] = { text = "Rooftop", dest = { 236, 237 }, coord = vector3(-1908.39, -570.94, 22.97), h = 137.9, veh = false },
 
-
     -- Humane Labs Elevator
     [239] = { text = "Level -3", dest = { 240 }, coord = vector3(3540.65, 3675.46, 20.99), h = 171.02, veh = false },
     [240] = { text = "Level -1", dest = { 239 }, coord = vector3(3540.65, 3675.46, 28.12), h = 166.91, veh = false },
-
 
     -- FIB Elevator, comment out if you have a custom MLO
     [241] = { text = "Level 1", dest = { 242 }, coord = vector3(136.13, -761.63, 45.75), h = 168.15, veh = false },
     [242] = { text = "Level 49", dest = { 241 }, coord = vector3(136.14, -761.64, 242.15), h = 155.18, veh = false },
 
-
     -- Solomon Office
     [243] = { text = "Leave Solomon Office", dest = { 244 }, coord = vector3(-1003.16, -477.9, 50.03), h = 98.47, veh = false },
     [244] = { text = "Enter Solomon", dest = { 243 }, coord = vector3(-1011.41, -479.98, 39.97), h = 120.88, veh = false },
-
-
 
     -- Casino Helipad
     [245] = { text = "Helipad", dest = { 197, 198, 199, 200, 201, 202, 203, 283 }, coord = vector3(971.89, 51.91, 120.24), h = 328.03, veh = false },
@@ -361,21 +344,17 @@ local teleports = {
     [246] = { text = "Rooftop", dest = { 247 }, coord = vector3(743.43, -1797.16, 29.29), h = 82.66, veh = false },
     [247] = { text = "Rooftop", dest = { 246 }, coord = vector3(748.87, -1792.96, 49.31), h = 355.72, veh = false },
 
-
     -- Union Depository
     [248] = { text = "Union Depository", dest = { 249 }, coord = vector3(-0.05, -705.85, 16.13), h = 336.49, veh = false },
     [249] = { text = "Union Depository", dest = { 248 }, coord = vector3(10.5, -671.31, 33.45), h = 7.11, veh = false },
-
 
     -- Arcade Garage Vehicle Teleports
     [250] = { text = "Exit Garage", dest = { 251 }, coord = vector3(2680.64, -361.38, -55.19), h = 267.19, veh = true },
     [251] = { text = "Enter Garage", dest = { 250 }, coord = vector3(723.93, -822.25, 24.75), h = 181.28, veh = true },
 
-
     -- Casino Tunnel Hole
     [252] = { text = "Exit Hole", dest = { 253 }, coord = vector3(2480.05, -294.69, -70.64), h = 232.25, veh = false },
     [253] = { text = "Enter Hole", dest = { 252 }, coord = vector3(2480.4, -288.36, -70.7), h = 237.6, veh = false },
-
 
     -- Casino Tunnel
     [254] = { text = "Exit Tunnel", dest = { 255 }, coord = vector3(2517.14, -327.1, -70.65), h = 85.02, veh = false },
@@ -391,13 +370,10 @@ local teleports = {
     [258] = { text = "Exit Vehicle Warehouse", dest = { 259 }, coord = vector3(286.97, -1148.59, 29.29), h = 354.52, veh = false }, -- On Foot Exit
     [259] = { text = "Enter Vehicle Warehouse", dest = { 258 }, coord = vector3(782.39, -2997.9, -69.0), h = 269.64, veh = false }, -- On Foot Entry
 
-
     [260] = { text = "Exit Farmhouse", dest = { 261 }, coord = vector3(1929.95, 4634.96, 40.47), h = 359.21, veh = false }, -- On Foot Exit
     [261] = { text = "Enter Farmhouse", dest = { 260 }, coord = vector3(844.68, -3004.97, -44.4), h = 91.45, veh = false }, -- On Foot Entry
 
-
     -- Los Santos Drug Wars Interiors --
-
     [262] = { text = "Exit RV", dest = { 263 }, coord = vector3(2318.96, 2553.64, 47.69), h = 221.7, veh = false },
     [263] = { text = "Enter RV", dest = { 262 }, coord = vector3(482.35, -2623.84, -49.06), h = 180.13, veh = false },
 
@@ -405,26 +381,18 @@ local teleports = {
     [265] = { text = "Enter Freakshop", dest = { 264 }, coord = vector3(599.00, -426.12, 24.74), h = 266.14, veh = true },
 
     ---- Day Time Variant Of Morgue Interior ---
-
     [266] = { text = "Exit Morgue", dest = { 267 }, coord = vector3(232.15, -1360.84, 28.65), h = 51.9, veh = false }, -- On Foot Exit
     [267] = { text = "Enter Morgue", dest = { 266 }, coord = vector3(486.69, -2573.35, -66.6), h = 1.75, veh = false }, -- On Foot Entry
 
-
-
     ---- Vinewood Rooftop Party ---
-
     [268] = { text = "Leave", dest = { 269, 272 }, coord = vector3(-277.71, 282.77, 89.89), h = 181.52, veh = false },  -- On Foot Exit
     [269] = { text = "Go To Rooftop", dest = { 272, 268 }, coord = vector3(-271.8, 289.57, 104.99), h = 183.29, veh = false }, -- On Foot Entry
 
-
-
     ---- Vinewood Sexy New Garage ---
-
     [270] = { text = "Enter Garage", dest = { 271 }, coord = vector3(519.88, -2637.43, -49.0), h = 356.62, veh = true },       -- Vehicle Exit
     [271] = { text = "Leave Garage", dest = { 270 }, coord = vector3(-270.71, 280.69, 90.2), h = 187.77, veh = true },         -- Vehicle Entry
 
     [272] = { text = "Enter Garage On Foot", dest = { 269, 268 }, coord = vector3(531.72, -2637.62, -49.0), h = 89.72, veh = false }, -- On Foot Exit
-
 
     ---- GAMEBUILD 2944 ----
 
@@ -440,35 +408,39 @@ local teleports = {
     [277] = { text = "Enter Vinewood Car club", dest = { 278 }, coord = vector3(1196.8, -3253.66, 7.1), h = 93.16, veh = false }, -- On Foot Exit
     [278] = { text = "Leave Vinewood Car club", dest = { 277 }, coord = vector3(1180.82, -3260.52, -48.0), h = 269.77, veh = false }, -- On Foor Entry
 
-
     -- Motel Interior, Base Game --
     [279] = { text = "Enter Motel", dest = { 280 }, coord = vector3(151.44, -1007.8, -99.0), h = 357.17, veh = false }, -- On Foot Exit
     [280] = { text = "Leave Motel", dest = { 279 }, coord = vector3(1121.37, 2642.07, 38.14), h = 359.26, veh = false }, -- On Foor Entry
-
 
     -- Casino Garage --
     [281] = { text = "Enter Garage", dest = { 282 }, coord = vector3(934.11, -2.45, 78.76), h = 150.13, veh = true },
     [282] = { text = "Leave Garage", dest = { 281 }, coord = vector3(1340.99, 183.77, -47.97), h = 261.53, veh = true },
 
-
     -- Casino Garage Elevator --
-    [283] = { text = "Casino Garage", dest = { 245, 197, 198, 199, 200, 202, 201 }, coord = vector3(1380.28, 178.28,
-        -48.99), h = 3.74, veh = false },
-        
+    [283] = { text = "Casino Garage", dest = { 245, 197, 198, 199, 200, 202, 201 }, coord = vector3(1380.28, 178.28,  -48.99), h = 3.74, veh = false },
+ 
     -- Cayo Perico Yacht  --
     [284] = { text = "Enter Yacht", dest = { 285 }, coord = vector3(3602.13, -4781, 5.89), h = 280.01, veh = false },
     [285] = { text = "Leave Yacht", dest = { 284 }, coord = vector3(3577.75, -4781.08, 5.89), h = 79.55, veh = false },
-    
-    
-     [286] = { text = "Enter Captian's Room", dest = { 287 }, coord = vector3(3614.43, -4781.14, 11.91), h = 80.03, veh = false },
+
+    [286] = { text = "Enter Captian's Room", dest = { 287 }, coord = vector3(3614.43, -4781.14, 11.91), h = 80.03, veh = false },
     [287] = { text = "Exit", dest = { 286 }, coord = vector3(3620.65, -4781.14, 11.92), h = 267.34, veh = false },
+
+	---- GAMEBUILD 3095 ----
+	-- Red's Auto Part
+	[288] = { text = "Enter Red's Auto Part", dest = { 289 }, coord = vector3(-510.45, -1736.11, 19.15), h = 323.96, veh = true },
+	[289] = { text = "Exit Red's Auto Part", dest = { 288 }, coord = vector3(1098.8368, -2268.9238, -49.00), h = 175.84, veh = true },
+
+	-- warehouse
+	[290] = { text = "Enter warehouse", dest = { 291 }, coord = vector3(1040.14, -2178.29, 31.46), h = 259.37, veh = true },
+	[291] = { text = "Exit warehouse", dest = { 290 }, coord = vector3(1207.37, -2268.14, -47.46 ), h = 264.78, veh = true },
 }
 
 
 -- Don't edit below this line.
 
 local function Teleport(teleport)
-    Citizen.CreateThread(function()
+    CreateThread(function()
         for i, var in pairs(teleports) do
             if (i == teleport) then
                 local player = PlayerPedId()
@@ -486,23 +458,27 @@ local function Teleport(teleport)
                 end
 
                 DoScreenFadeOut(500)
-                Citizen.Wait(500)
+                Wait(500)
 
                 NetworkFadeOutEntity(entity, false, true)
-                Citizen.Wait(500)
+                Wait(500)
 
                 SetEntityCoordsNoOffset(entity, var.coord.x, var.coord.y, var.coord.z, false, false, false)
                 SetGameplayCamRelativeHeading(var.h)
                 SetGameplayCamRelativePitch(-20.0, 1.0)
                 SetEntityHeading(entity, var.h)
 
-                Citizen.Wait(500)
+                Wait(500)
                 NetworkFadeInEntity(entity, true)
 
-                Citizen.Wait(500)
+                Wait(500)
                 DoScreenFadeIn(500)
                 if i == 200 then
                     TriggerEvent("online-interiors:enterCasino")
+                elseif i == 208 then
+                    TriggerEvent("online-interiors:nightclub:enter")
+                elseif i == 209 then
+                    TriggerEvent("online-interiors:nightclub:exit")
                 end
             end
         end
@@ -517,7 +493,7 @@ local function DrawHelp(teleport)
             DisableControlAction(0, 86, true)
 
             BeginTextCommandDisplayHelp("STRING")
-            AddTextComponentSubstringPlayerName("Press ~INPUT_PICKUP~ to teleport.")
+            AddTextComponentSubstringPlayerName("Press ~INPUT_PICKUP~ to " .. var.text)
             EndTextCommandDisplayHelp(0, false, true, 1)
 
             if (IsDisabledControlJustPressed(0, 38)) then
@@ -657,7 +633,7 @@ end
 local player, playerCoords
 local vehicle, vehicleCoords, playerIsDriver
 
-Citizen.CreateThread(function()
+CreateThread(function()
     while (true) do
         player = PlayerPedId()
         playerCoords = GetEntityCoords(player)
@@ -670,7 +646,7 @@ Citizen.CreateThread(function()
     end
 end)
 
-Citizen.CreateThread(function()
+CreateThread(function()
     while (true) do
         local wait = 500
 
@@ -701,6 +677,6 @@ Citizen.CreateThread(function()
             end
         end
 
-        Citizen.Wait(wait)
+        Wait(wait)
     end
 end)
