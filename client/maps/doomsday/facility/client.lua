@@ -2,7 +2,7 @@
 -- Use https://github.com/Bob74/bob74_ipl/wiki to edit below
 
 -- Facility (Paleto Bay)
-Citizen.CreateThread(function()
+CreateThread(function()
     -- Getting the object to interact with
     DoomsdayFacility = exports['bob74_ipl']:GetDoomsdayFacilityObject()
 

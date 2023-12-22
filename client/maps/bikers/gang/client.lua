@@ -2,7 +2,7 @@
 -- Use https://github.com/Bob74/bob74_ipl/wiki to edit below
 
 -- Gang (N/A)
-Citizen.CreateThread(function()
+CreateThread(function()
     BikerGang = exports['bob74_ipl']:GetBikerGangObject()
 
     -- Name
@@ -11,7 +11,7 @@ Citizen.CreateThread(function()
     BikerGang.Name.Set("Clubhouse", BikerGang.Name.Colors.red, BikerGang.Name.Fonts.font11)
     -- Don't forget to enable it
     BikerGang.Clubhouse.ClubName.Enable(true)
-    
+
     -- Emblem
     ---------
     -- Choosing the logo and rotating it from 90°
@@ -19,5 +19,4 @@ Citizen.CreateThread(function()
 
     -- and enabling it
     BikerGang.Clubhouse.Emblem.Enable(true)
-
 end)

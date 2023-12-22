@@ -2,7 +2,7 @@
 -- Use https://github.com/Bob74/bob74_ipl/wiki to edit below
 
 -- Organization (N/A)
-Citizen.CreateThread(function()
+CreateThread(function()
     FinanceOrganization = exports['bob74_ipl']:GetFinanceOrganizationObject()
 
     -- Setting the name parameters

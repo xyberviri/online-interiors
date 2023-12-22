@@ -2,7 +2,7 @@
 -- Use https://github.com/Bob74/bob74_ipl/wiki to edit below
 
 -- Clubhouse 1 (Sandy Shores)
-Citizen.CreateThread(function()
+CreateThread(function()
     -- Getting the object to interact with
     BikerClubhouse1 = exports['bob74_ipl']:GetBikerClubhouse1Object()
 

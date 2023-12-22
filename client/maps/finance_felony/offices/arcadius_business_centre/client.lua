@@ -2,7 +2,7 @@
 -- Use https://github.com/Bob74/bob74_ipl/wiki to edit below
 
 -- Arcadius Business Centre (Downtown Los Santos)
-Citizen.CreateThread(function()
+CreateThread(function()
     -- Getting the object to interact with
 	FinanceOffice1 = exports['bob74_ipl']:GetFinanceOffice1Object()
 
@@ -17,5 +17,4 @@ Citizen.CreateThread(function()
 
 	-- Refresh Interior
     RefreshInterior(FinanceOffice1.currentInteriorId)
-	
 end)

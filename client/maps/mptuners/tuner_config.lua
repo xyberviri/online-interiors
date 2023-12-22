@@ -37,24 +37,24 @@ local EntitySetsTuner = {
 }
 
 local entitySetsMeet = {
-['entity_set_meet_crew'] = true,
-['entity_set_meet_lights'] = true,
-['entity_set_meet_lights_cheap'] = true,
-['entity_set_player'] = true,
-['entity_set_test_crew'] = false,
-['entity_set_test_lights'] = true,
-['entity_set_test_lights_cheap'] = true,
-['entity_set_time_trial'] = true,
+    ['entity_set_meet_crew'] = true,
+    ['entity_set_meet_lights'] = true,
+    ['entity_set_meet_lights_cheap'] = true,
+    ['entity_set_player'] = true,
+    ['entity_set_test_crew'] = false,
+    ['entity_set_test_lights'] = true,
+    ['entity_set_test_lights_cheap'] = true,
+    ['entity_set_time_trial'] = true,
 }
 
 local EntitySetMeth = {
-    ['tintable_walls'] = false,
+    ['tintable_walls'] = true, -- Required true to load staire
 }
-  
-Citizen.CreateThread(function()
-    local tuna_interior_id = GetInteriorAtCoords(vector3(-1350.0, 160.0, -100.0))
-    local meetup_interior_id = GetInteriorAtCoords(vector3(-2000.0, 1113.211, -25.36243))
-    local methlab_interior_id = GetInteriorAtCoords(vector3(981.9999, -143.0, -50.0))
+
+CreateThread(function()
+    local tuna_interior_id = 285953 -- -1350.0, 160.0, -100.0
+    local meetup_interior_id = 285697 -- -2000.0, 1113.211, -25.36243
+    local methlab_interior_id = 284673 -- 981.9999, -143.0, -50.0
     RequestIpl('tr_tuner_meetup')
     RequestIpl('tr_tuner_race_line')
     RequestIpl('tr_tuner_shop_burton')
@@ -62,7 +62,7 @@ Citizen.CreateThread(function()
     RequestIpl('tr_tuner_shop_mission' )
     RequestIpl('tr_tuner_shop_rancho')
     RequestIpl('tr_tuner_shop_strawberry')
-    
+
     if IsValidInterior(tuna_interior_id) then
       RefreshInterior(tuna_interior_id)
     end
@@ -78,12 +78,12 @@ Citizen.CreateThread(function()
     for k, v in pairs(EntitySetsTuner) do
         if v then
             ActivateInteriorEntitySet(
-                tuna_interior_id --[[ integer ]], 
+                tuna_interior_id --[[ integer ]],
                 k --[[ string ]]
             )
         else
             DeactivateInteriorEntitySet(
-                tuna_interior_id --[[ integer ]], 
+                tuna_interior_id --[[ integer ]],
                 k --[[ string ]]
             )
         end
@@ -93,12 +93,12 @@ Citizen.CreateThread(function()
     for k, v in pairs(entitySetsMeet) do
         if v then
             ActivateInteriorEntitySet(
-                meetup_interior_id --[[ integer ]], 
+                meetup_interior_id --[[ integer ]],
                 k --[[ string ]]
             )
         else
             DeactivateInteriorEntitySet(
-                meetup_interior_id --[[ integer ]], 
+                meetup_interior_id --[[ integer ]],
                 k --[[ string ]]
             )
         end
@@ -107,16 +107,16 @@ Citizen.CreateThread(function()
     for k, v in pairs(EntitySetMeth) do
         if v then
             ActivateInteriorEntitySet(
-                methlab_interior_id --[[ integer ]], 
+                methlab_interior_id --[[ integer ]],
                 k --[[ string ]]
             )
         else
             DeactivateInteriorEntitySet(
-                methlab_interior_id --[[ integer ]], 
+                methlab_interior_id --[[ integer ]],
                 k --[[ string ]]
             )
         end
     end
 
-    SetInteriorEntitySetColor(284673, "tintable_walls", 3)
+    SetInteriorEntitySetColor(284673, "tintable_walls", 1)
 end)

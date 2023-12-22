@@ -2,7 +2,7 @@
 -- Use https://github.com/Bob74/bob74_ipl/wiki to edit below
 
 -- Maze Bank (Downtown Los Santos)
-Citizen.CreateThread(function()
+CreateThread(function()
     -- Getting the object to interact with
 	FinanceOffice2 = exports['bob74_ipl']:GetFinanceOffice2Object()
 
@@ -17,5 +17,4 @@ Citizen.CreateThread(function()
 
 	-- Refresh Interior
     RefreshInterior(FinanceOffice2.currentInteriorId)
-	
 end)
