@@ -204,7 +204,7 @@ local blips = {
 
 	-- Casino --
 	{ text = "Casino", color = 4, sprite = 679, coord = vector3(917.3, 50.76, 80.9) },
-	{ text = "Music Locker", color = 0, sprite = 136, coord = vector3(987.6535, 80.3114, 80.9)} ,
+	{ text = "Music Locker", color = 0, sprite = 136, coord = vector3(987.6535, 80.3114, 80.9) },
 
 	-- Bolingbroke Penitentiary --
 	{ text = "Bolingbroke Penitentiary", color = 47, sprite = 526, coord = vector3(1851.78, 2606.26, 45.67) },
@@ -235,7 +235,7 @@ local blips = {
 	-- Agencies
 	{ text = "Agency", color = 0, sprite = 826, coord = vector3(-1035.3, -431.42, 39.62) },
 	{ text = "Agency", color = 0, sprite = 826, coord = vector3(384.8140, -60.7270, 102.3630) },
-	{ text = "Agency", color = 0, sprite = 826, coord = vector3(-1003.9110, -759.6040, 60.894190), },
+	{ text = "Agency", color = 0, sprite = 826, coord = vector3(-1003.9110, -759.6040, 60.894190) },
 
 	-- Record A Studios
 	{ text = "Record A Studios", color = 0, sprite = 819, coord = vector3(-841.51, -229.07, 37.27) },
@@ -281,6 +281,9 @@ local blips = {
 	---- THE CHOP SHOP
 	-- Red auto part
 	{ text = "Red's Auto Part", color = 6, sprite = 68, coord = vector3(-511.3891, -1737.2162, 19.2360) },
+
+	-- Cargo
+	{ text = "Cargo Ship", color = 0, sprite = 410, coord = vector3(-398.9807, -4117.6724, 27.1043) },
 }
 
 -- Don't edit below this line.
