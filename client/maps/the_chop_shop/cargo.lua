@@ -1,0 +1,6 @@
+CreateThread(function()
+	RequestIpl("m23_2_cargoship")
+	RequestIpl("m23_2_cargoship_lod")
+	RequestIpl("m23_2_cargoship_bridge")
+	RequestIpl("m23_2_cargoship_bridge_lod")
+end)
