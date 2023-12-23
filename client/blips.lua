@@ -283,7 +283,10 @@ local blips = {
 	{ text = "Red's Auto Part", color = 6, sprite = 68, coord = vector3(-511.3891, -1737.2162, 19.2360) },
 
 	-- Cargo
-	{ text = "Cargo Ship", color = 0, sprite = 410, coord = vector3(-398.9807, -4117.6724, 27.1043) },
+	{ text = "Cargo Ship", color = 6, sprite = 455, coord = vector3(-398.9807, -4117.6724, 27.1043) },
+	
+	-- Warehouse
+	{ text = "Warehouse", color = 0, sprite = 473, coord = vector3(1036.79, -2178.12, 31.53) },
 }
 
 -- Don't edit below this line.
