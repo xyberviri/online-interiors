@@ -179,12 +179,12 @@ local teleports = {
     [133] = { text = "Exit Weed Farm", dest = { 132 }, coord = vector3(102.07, 175.09, 104.59), h = 165.63, veh = false },
 
     -- Vehicle Warehouse
-    [134] = { text = "Vehicle Warehouse", dest = { 135 }, coord = vector3(970.83, -2990.88, -39.65), h = 179.69 },
-    [135] = { text = "Exit Vehicle Warehouse", dest = { 134 }, coord = vector3(-666.58, -2379.13, 13.87), h = 61.39 },
+    [134] = { text = "Exit Vehicle Warehouse", dest = { 135 }, coord = vector3(970.83, -2990.88, -39.65), h = 179.69 },
+    [135] = { text = "Enter Vehicle Warehouse", dest = { 134 }, coord = vector3(-666.58, -2379.13, 13.87), h = 61.39 },
     [136] = { text = "Vehicle Warehouse Modshop", dest = { 137 }, coord = vector3(954.89, -2991.19, -39.65), h = 180.23 },
-    [137] = { text = "Exit Vehicle Warehouse", dest = { 136 }, coord = vector3(-673.56, -2391.19, 13.87), h = 60.95 },
-    [138] = { text = "Vehicle Warehouse Basement", dest = { 139 }, coord = vector3(946.57, -2999.03, -47.65), h = 269.91 },
-    [139] = { text = "Vehicle Warehouse", dest = { 138 }, coord = vector3(978.25, -3002.00, -39.65), h = 90.23 },
+    [137] = { text = "Enter Vehicle Warehouse", dest = { 136 }, coord = vector3(-673.56, -2391.19, 13.87), h = 60.95 },
+    [138] = { text = "Go to Vehicle Warehouse", dest = { 139 }, coord = vector3(946.57, -2999.03, -47.65), h = 269.91 },
+    [139] = { text = "Access Vehicle Warehouse Basement", dest = { 138 }, coord = vector3(978.25, -3002.00, -39.65), h = 90.23 },
 
     -- Crate Warehouses
     [140] = { text = "Large Logistics Depot", dest = { 141 }, coord = vector3(992.82, -3097.80, -39.00), h = 269.20, veh = false },
@@ -195,8 +195,8 @@ local teleports = {
     [145] = { text = "Exit Pier 400 Utility Building", dest = { 144 }, coord = vector3(274.54, -3015.40, 5.70), h = 94.82, veh = false },
 
     -- Hangar
-    [146] = { text = "LSIA Hangar 1", dest = { 147 }, coord = vector3(-1267.02, -2982.38, -48.49), h = 179.76 },
-    [147] = { text = "Exit LSIA Hangar 1", dest = { 146 }, coord = vector3(-1139.08, -3387.34, 13.94), h = 328.99 },
+    [146] = { text = "Exit LSIA Hangar 1", dest = { 147 }, coord = vector3(-1267.02, -2982.38, -48.49), h = 179.76 },
+    [147] = { text = "Enter LSIA Hangar 1", dest = { 146 }, coord = vector3(-1139.08, -3387.34, 13.94), h = 328.99 },
 
     -- Bunker
     [148] = { text = "Farmhouse Bunker", dest = { 149 }, coord = vector3(890.55, -3245.86, -98.27), h = 91.61 },
