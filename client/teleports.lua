@@ -217,8 +217,8 @@ local teleports = {
     [159] = { text = "Enter Arcade", coord = vector3(758.76, -816.06, 26.29), h = 278.34, dest = { 158 } },
 
     -- Split Sides Comedy Store
-    [160] = { text = "Exit Split Sides Comedy Store", dest = { 161 }, coord = vector3(-430.06, 261.72, 83.0), h = 170.49, veh = false },
-    [161] = { text = "Split Sides Comedy Store", dest = { 160 }, coord = vector3(-458.85, 284.66, 78.5), h = 266.75, veh = false },
+    [160] = { text = "Enter Split Sides Comedy Store", dest = { 161 }, coord = vector3(-430.06, 261.72, 83.0), h = 170.49, veh = false },
+    [161] = { text = "leave Split Sides Comedy Store", dest = { 160 }, coord = vector3(-458.85, 284.66, 78.5), h = 266.75, veh = false },
 
     -- North Yankton
     -- [162] = {text = "Leave North Yankton, dest = {163}, coord = vector3(3208.36, -4864.95, 111.5), h = 356.17, veh = false},
