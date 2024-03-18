@@ -2,8 +2,6 @@
 
 <p align="center">
   <a href="https://github.com/TayMcKenzieNZ/online-interiors/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-GPL%20v3-blue.svg"></a>
-  <a href="https://github.com/TayMcKenzieNZ/online-interiors/stargazers"><img src="https://img.shields.io/github/stars/TayMcKenzieNZ/online-interiors.svg?style=social"></a>
-  <a href="https://github.com/TayMcKenzieNZ/online-interiors/network/members"><img src="https://img.shields.io/github/forks/TayMcKenzieNZ/online-interiors.svg?style=social"></a>
 </p>
 
 
