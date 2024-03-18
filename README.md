@@ -102,6 +102,13 @@ These fixes and additions include:
 
 - Added breakable glass on FIB rooftop
 
+  
+----------------------
+
+### Note from Xyberviri
+
+This repo was forked under GPLv3 
+
 ----------------------
 
 # Bahama Mamas Club 🍸
